@@ -3,11 +3,7 @@
 1.Download VMware Workstation Player from the link : 
 https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html 
 
-
-
 2.Click on the download now and choose based on user operating system
-
-
 
 
 ![image](https://github.com/addff/2403-ITT440/assets/167417723/2b83ca1f-ee13-4ebe-bb41-94c854a2b562)
@@ -48,13 +44,11 @@ https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html
 Click "Next" to continue.
 
 
-
 ![image](https://github.com/addff/2403-ITT440/assets/167417723/387e48a6-ff36-4b5e-82f6-4e6360a535b6)
 
 
 9.You can enable product startup and join the VMware Customer experience Improvement program here.
 Click "Next" to continue.
-
 
 
 ![image](https://github.com/addff/2403-ITT440/assets/167417723/6f685f06-f17f-47ca-b900-98b65f2468b3)
