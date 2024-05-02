@@ -41,7 +41,7 @@ The platform that is used to write, compile and run the codes for `client-server
 
 ![FreeBSD-logo](https://github.com/addff/2403-ITT440/assets/166004983/d57c7009-31e8-46d1-9ea9-5470c019decb)
 
-### Server :
+### Server Code :
 
 ```C
 #include <stdio.h>
@@ -102,7 +102,7 @@ int main() {
 }
 ```
 
-### Client :
+### Client Code :
 
 ```C
 #include <stdio.h>
@@ -156,7 +156,7 @@ int main() {
 }
 ```
 
-### Compiling :
+### Compiling Server and Client:
 
 ![Screenshot 2024-05-01 234747](https://github.com/addff/2403-ITT440/assets/166004983/827ecd98-5650-4329-8a08-7f026d598cab)
 
@@ -178,7 +178,7 @@ The output in client terminal is as follows:
 
 ![vscode](https://github.com/addff/2403-ITT440/assets/166004983/b4ea65e1-e601-417b-ad38-7ec73d54c17d)
 
- ### Server :
+ ### Server Code :
 
  ```Python
 import socket
@@ -207,7 +207,7 @@ while True:
     c.close()
 ```
 
- ### Client :
+ ### Client Code :
 
  ```Python
 import socket
