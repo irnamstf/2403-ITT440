@@ -249,7 +249,7 @@ except ConnectionRefusedError:
  
  ## C or Python, Which Language is Better for Socket Programming?
 
-There is no definite answer for above question as different programmers would have different opinion on which language is more suitable for socket programming. Alas, what programmer seek in learning and creating socket programming will differ on which language that they use. At the end of the day, both languages give different exposure and knowledge to its user.
+There is no definite answer for above question as different programmers would have different opinion on which language is more suitable for socket programming. Alas, what programmer seek in learning and creating socket programming will differ on which language that they use. At the end of the day, both languages give different exposure and knowledge to its user. The most noticeable differences between both languages are as shown below:
 
  | Socket Programming with C Language                              | Socket Programming with Python Language                    |
  | --------------------------------------------------------------- | ---------------------------------------------------------- |
@@ -262,4 +262,4 @@ There is no definite answer for above question as different programmers would ha
 
  ## Video
 
- 
+ For better understanding, a video to demonstrate on how to code basic `Client-Server` programs is made and can be accessed by clicking the link below:
