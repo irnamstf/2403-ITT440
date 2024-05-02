@@ -243,8 +243,8 @@ except ConnectionRefusedError:
 
  ![Screenshot 2024-05-01 213443](https://github.com/addff/2403-ITT440/assets/166004983/5492f40a-53d6-4b05-b1c7-5bdb9838a339)
 
- * The server will print the IP address and the port that were used to establish connection between client and server.
- * The port will be different if the server code is run again and it will never be the same as before.
+ * The server will print the IP address and the port number that were used to establish connection between client and server.
+ * The port number will be different each time the server code is run again and it will never be the same as before.
 
  The output in client terminal is as follows:
 
