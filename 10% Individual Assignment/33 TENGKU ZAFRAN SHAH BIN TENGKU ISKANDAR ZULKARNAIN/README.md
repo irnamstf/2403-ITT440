@@ -16,9 +16,9 @@
 
 Socket programming is a method of establishing a brief connection between two existing nodes to communicate with each other. The two nodes are commonly known as **Client** and **Server**. The way of communicating is usually one node listens on a particular port with assigned IP address, while the other node reachs out to form a brief connection. The connection is commonly made for accessing resources from the other node such as files, songs, videos, or some other services. For more detailed informations about __Client__ and __Server__ are as follows:
 
-`Client` --> The client is what sends a request to that server socket, and waits for a response.
+* `Client` --> The client is what sends a request to that server socket, and waits for a response.
 
-`Server` --> Server's sole purpose is to do as what its name implies - serve its **Client**.
+* `Server` --> Server's sole purpose is to do as what its name implies - serve its **Client**.
 
 _The diagram below showing how the `Client-Server` interact to establish connection_ :
 
