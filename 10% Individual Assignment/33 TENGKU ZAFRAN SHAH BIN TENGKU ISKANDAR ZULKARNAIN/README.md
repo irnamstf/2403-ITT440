@@ -267,4 +267,4 @@ There is no definite answer for above question as different programmers would ha
 
  ## Video
 
- For better understanding, a video to demonstrate on how to code basic `Client-Server` programs is made and can be accessed by clicking the link below:
+ For better understanding, a video to demonstrate on how to code basic `Client-Server` programs and to differentiate between socket programming in C VS Python is made. The video can be accessed by clicking the link below:
