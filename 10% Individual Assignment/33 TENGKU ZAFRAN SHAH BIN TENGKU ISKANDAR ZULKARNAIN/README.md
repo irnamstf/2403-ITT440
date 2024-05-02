@@ -156,7 +156,7 @@ int main() {
 }
 ```
 
-### Compiling Server and Client:
+### Compiling Server and Client :
 
 ![Screenshot 2024-05-01 234747](https://github.com/addff/2403-ITT440/assets/166004983/827ecd98-5650-4329-8a08-7f026d598cab)
 
