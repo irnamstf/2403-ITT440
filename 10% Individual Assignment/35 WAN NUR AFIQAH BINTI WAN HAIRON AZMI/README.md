@@ -84,7 +84,7 @@ int main()
 
 ![1](https://github.com/addff/2403-ITT440/assets/166004641/80c08c13-757b-42b8-acb2-7a63459d4eac)
 
-### EXAMPLE 1
+## EXAMPLE 1
 
 **n=1, 2<sup>1</sup>**
 
@@ -121,7 +121,7 @@ int main()
 
 ![5](https://github.com/addff/2403-ITT440/assets/166004641/a40c397d-fc01-4971-882c-496544699f7d)
 
-### EXAMPLE 2
+## EXAMPLE 2
 
 **n=2, 2<sup>2</sup>**
 
