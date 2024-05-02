@@ -3,7 +3,7 @@
 ![IDEs](https://github.com/addff/2403-ITT440/assets/166004313/0775e9ac-7c40-4bc6-a7f2-7cd55bc1cc2a)
 
 # IDE Installation (LAB WORK 7)
-<br />
+<br /><br />
 
 ## **Introduction**
 
@@ -19,7 +19,7 @@ IDE combines common developer tools to be all compiled together in a single (GUI
   * ***Debugger*** an extra program to be able to display graphically display the location of the error in the original code by highlighting.<br /><br />
 		
 That is the requirement for an iDE. It brings such convenience to modern-day developers as it offers a simple and easy environment to develop their programs. Developers used to edit their code with a plain text editor, invoke the compiler, and edit or debug their programs from the operating system's command line. While that itself is not a hard thing, having to use iDE nowadays definitely helps.   
-<br /><br /><br />
+<br /><br /><br /><br />
 
 
 
@@ -31,7 +31,7 @@ That is the requirement for an iDE. It brings such convenience to modern-day dev
   
   Next, we have the ***PyCharm*** and its name suggested it is an IDE used for Python programming and it is indeed famous in the programming community as an IDE for Python development. with supports of over 50 plugins it is created by JetBrains of Czech Republic.<br /><br />
   
-  For the next one we have the ***Visual Studio Code*** which is a source code editor, along the Visual Studio Code there is also ***Visual Studio*** an IDE which is both created by Microsoft and both are known to be universally reliable IDE by many for many programming languages.<br /><br /><br />
+  For the next one we have the ***Visual Studio Code*** which is a source code editor, along the Visual Studio Code there is also ***Visual Studio*** an IDE which is both created by Microsoft and both are known to be universally reliable IDE by many for many programming languages.<br /><br /><br /><br /><br />
 
 
 ## **Which IDE will be used?**
@@ -42,7 +42,7 @@ Why Visual Studio Code specifically? because Visual Studio Code Universally acce
  **NOTE:** Visual Studio Code However is not considered as an IDE because it is a standalone source-code editor but with plugins it can rival proper IDEs and the size of the VS Code is only but a fraction of the size of for example Visual Studio hence my preferral.<br /><br />
 
 What exactly is the Visual Studio Code? it is a source-code editor that has been created by Microsoft and is compatible with Windows, Linux, macOS, and web browsers. It boasts features such as debugging support, syntax highlighting, intelligent code completion, snippets, code refactoring, and integrated version control with Git. Users have the ability to modify the theme, keyboard shortcuts, preferences, and can also install extensions to enhance its functionality.
-<br /><br /><br />
+<br /><br /><br /><br /><br />
 
 ## **Visual Studio Code Installation**
 
@@ -52,31 +52,31 @@ The steps are :
  1. Visit the Visual Studio Code [Link](https://code.visualstudio.com) website. Below is the Interface.
     <br /><br />
 ![440_ind_asm_1](https://github.com/addff/2403-ITT440/assets/166004313/a8037e8b-9ea3-4209-bcd1-18986acf3f54)
-<br />
+<br /><br />
 
  2. Once youve click the download button for your preffered OS as for me the "Download for WIndows" button you will be redirected to the [Link](https://code.visualstudio.com/docs/?dv=win64user). Do read all the documentation by the Visual Studio Code team as it may help you.
 <br /><br />
 ![440_ind_asm_2](https://github.com/addff/2403-ITT440/assets/166004313/d52b2883-4f94-4679-a4c3-fc74a1312d6b)
-<br />
+<br /><br />
 
  3. The Visual Studio Team has their own introductory videos to help their users familiarize themselves with the new environment [Link](https://code.visualstudio.com/docs/getstarted/introvideos).
 <br /><br />
 ![440_ind_asm_3](https://github.com/addff/2403-ITT440/assets/166004313/d2ede7c7-ceca-4493-963a-760947ddf659)
-<br />
+<br /><br />
 
  4. Now that we have succesfully downloaded the file for the Visual Studio Code from its website it is time for Installation.
 <br /><br />
 ![440_ind_asm_4](https://github.com/addff/2403-ITT440/assets/166004313/a03bcd3f-4eb6-4cde-acf2-86d24e19e7e0)
-<br />
+<br /><br />
 
  5. Once were done with Installation were free to install whatever extensions and plugin we desire and that is all.
 <br /><br />
 ![440_ind_asm_5](https://github.com/addff/2403-ITT440/assets/166004313/32549d2d-de52-4e21-8268-50a939bdfbe1)
-<br />
+<br /><br />
 
 That are all the crucial steps to succesfully install the mighty Visual Studio Code, now what are we waiting for, good luck on your codings endevour and may
 this documentation be helpful to all.
-<br /><br />
+<br /><br /><br /><br />
 
 ## **REFERENCES**
 <br />
@@ -86,6 +86,6 @@ this documentation be helpful to all.
  * [What is an IDE & Best IDEs](https://www.techrepublic.com/article/best-ide-software/)<br />
  * [Wikipedia VS Code](https://en.wikipedia.org/wiki/Visual_Studio_Code)<br />
 
- <br />
+ <br /><br /><br /><br />
  
  ## **Video Guide**
