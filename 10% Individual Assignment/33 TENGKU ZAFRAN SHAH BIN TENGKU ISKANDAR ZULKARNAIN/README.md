@@ -167,11 +167,16 @@ The output in server terminal is as follows:
 
 ![Screenshot 2024-05-01 234046](https://github.com/addff/2403-ITT440/assets/166004983/b18ec33e-4e4b-4a51-9633-cd723dcab25d)
 
+* The server's code should be run first before the client's code to make sure the server is ready for incoming request from the client.
+* The server will print the IP address that were used to bind with the socket.
+
 The output in client terminal is as follows:
 
 ![Screenshot 2024-05-01 234058](https://github.com/addff/2403-ITT440/assets/166004983/cae7fd88-0b73-4203-9337-f08a75cb70ed)
 
- 
+* The client will print out the message if connection is successfully established between client and server.
+* The client terminal will not show any output if the client's code is run first before the server's code.
+
  ## Socket Programming in Python
 
  The platform that is used to write, compile and run the codes for `client-server` for __Python language__ is __Visual Studio Code (VS Code)__, a free and easy to use platform for beginner to explore. __VS Code__ is a source-code editor developed by *Microsoft* for Windows, Linux, macOS and web browsers. Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded version control with Git. User can install Python extension packs inside __VS Code__ so that it can be used as a Python coding tool.
