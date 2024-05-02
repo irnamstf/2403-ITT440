@@ -25,18 +25,23 @@ _The diagram below showing how the `Client-Server` interact to establish connect
 
 ![How client-server works](https://github.com/addff/2403-ITT440/assets/166004983/8a4d080a-1999-4b43-91c5-4552913cbb9a)
 
-* `socket()` --> Creating a new socket.
-* `bind()` --> Binding the socket to a specific port and an IP address so that socket can communicate.
-* `listen()` --> Waiting for feedback from the other end for incoming connection request.
-* `accept()` --> Accepting a connection from client and returning a brand new socket to start communicating.
-* `connect()` --> Establishing a connection to a remote and private server.
-* `write()` --> Sending data that was requested through the socket created.
-* `read()` --> Receiving data that was sended from the socket.
-* `close()` --> Ending the session by closing the socket connection.
+1. `socket()` --> Creating a new socket.
+2. `bind()` --> Binding the socket to a specific port and an IP address so that socket can communicate.
+3. `listen()` --> Waiting for feedback from the other end for incoming connection request.
+4. `accept()` --> Accepting a connection from client and returning a brand new socket to start communicating.
+5. `connect()` --> Establishing a connection to a remote and private server.
+6. `write()` --> Sending data that was requested through the socket created.
+7. `read()` --> Receiving data that was sended from the socket.
+8. `close()` --> Ending the session by closing the socket connection.
 
 There are various programming languages that can be used to code socket programming and the most popular ones are __C__ and __Python__. In this experiment on finding out which language is better for socket programming, a simple `Client-Server` program will be made to print message if connection is established.
 
 ## Socket Programming in C
+
+The platform that is used to write, compile and run the codes for `client-server` for __C language__ is __FreeBSD__, a free and easy to use platform for beginner to explore.
+
+![FreeBSD-logo](https://github.com/addff/2403-ITT440/assets/166004983/f5ff7129-32e3-4ac0-bf6c-cec5e08e3a30)
+
 
 ### Server :
 
@@ -170,6 +175,11 @@ The output in client terminal is as follows:
 
  
  ## Socket Programming in Python
+
+ The platform that is used to write, compile and run the codes for `client-server` for __Python language__ is __Visual Studio Code (VSCode)__, a free and easy to use platform for beginner to explore. User can install Python extension packs inside VSCode so that it can be used as a Python coding tool.
+
+ ![vscode](https://github.com/addff/2403-ITT440/assets/166004983/1ea678ab-ada4-40f0-8eaf-5ff16529684f)
+
 
  ### Server :
 
