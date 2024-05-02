@@ -37,7 +37,7 @@ There are various programming languages that can be used to code socket programm
 
 ## Socket Programming in C
 
-The platform that is used to write, compile and run the codes for `client-server` for __C language__ is __FreeBSD__, a free and easy to use platform for beginner to explore.
+The platform that is used to write, compile and run the codes for `client-server` for __C language__ is __FreeBSD__, a free and easy to use platform for beginner to explore. __FreeBSD__ is a free and open-source Unix-like operating system descended from the *Berkeley Software Distribution*. The first version of __FreeBSD__ was released in 1993 developed from 386BSD and the current version runs on x86, ARM, PowerPC and RISC-V processors.
 
 ![FreeBSD-logo](https://github.com/addff/2403-ITT440/assets/166004983/d57c7009-31e8-46d1-9ea9-5470c019decb)
 
@@ -174,7 +174,7 @@ The output in client terminal is as follows:
  
  ## Socket Programming in Python
 
- The platform that is used to write, compile and run the codes for `client-server` for __Python language__ is __Visual Studio Code (VSCode)__, a free and easy to use platform for beginner to explore. User can install Python extension packs inside VSCode so that it can be used as a Python coding tool.
+ The platform that is used to write, compile and run the codes for `client-server` for __Python language__ is __Visual Studio Code (VS Code)__, a free and easy to use platform for beginner to explore. __VS Code__ is a source-code editor developed by *Microsoft* for Windows, Linux, macOS and web browsers. Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded version control with Git. User can install Python extension packs inside __VS Code__ so that it can be used as a Python coding tool.
 
 ![vscode](https://github.com/addff/2403-ITT440/assets/166004983/b4ea65e1-e601-417b-ad38-7ec73d54c17d)
 
