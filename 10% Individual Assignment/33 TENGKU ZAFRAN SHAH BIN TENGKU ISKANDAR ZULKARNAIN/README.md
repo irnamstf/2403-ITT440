@@ -269,7 +269,7 @@ There is no definite answer for above question as different programmers would ha
 
  For better understanding, a video to demonstrate on how to compile and run basic `Client-Server` codes and to differentiate between socket programming in C VS Python is made. The video can be accessed by clicking the link below:
 
- Link
+ [Socket Programming in C VS Python](https://youtu.be/i0GqqTi5RBY)
 
  ## References
 
