@@ -254,7 +254,7 @@ except ConnectionRefusedError:
  
  ## C or Python, Which Language is Better for Socket Programming?
 
-There is no definite answer for above question as different programmers would have different opinion on which language is more suitable for socket programming. Alas, what programmer seek in learning and creating socket programming will differ on which language that they use. At the end of the day, both languages give different exposure and knowledge to its user. The most noticeable differences between both languages are as shown below:
+There is no definite answer for above question as different programmers would have different opinion on which language is more suitable for socket programming. Alas, what programmer seek in learning and creating socket programming will differ on which language that they use. At the end of the day, both languages give different exposure and knowledge to its user. In conclusion, both __C__ and __Python__ are good language to use for socket programming. The most noticeable differences between both languages are as shown below:
 
  | Socket Programming with C Language                              | Socket Programming with Python Language                    |
  | --------------------------------------------------------------- | ---------------------------------------------------------- |
@@ -268,3 +268,14 @@ There is no definite answer for above question as different programmers would ha
  ## Video
 
  For better understanding, a video to demonstrate on how to compile and run basic `Client-Server` codes and to differentiate between socket programming in C VS Python is made. The video can be accessed by clicking the link below:
+
+ Link
+
+ ## References
+
+ Various articles and websites are used as references and sources for this assignment. the links for those references are as shown below:
+
+ 1. [Socket Programming in C - GeeksforGeeks](https://www.geeksforgeeks.org/socket-programming-cc/)
+ 2. [How to use Python Socket Programming for computer networking?](https://www.linkedin.com/pulse/how-use-python-socket-programming-computer-networking-rangnekar-dvyif#:~:text=For%20carrying%20out%20the%20communication,access%20the%20BSD%20socket%20interface)
+ 3. [Datacamp - A Complete Guide to Socket Programming in Python](https://www.datacamp.com/tutorial/a-complete-guide-to-socket-programming-in-python)
+ 4. [Socket Programming in C/C++ - javatpoint](https://www.javatpoint.com/socket-programming-in-c-or-cpp)
