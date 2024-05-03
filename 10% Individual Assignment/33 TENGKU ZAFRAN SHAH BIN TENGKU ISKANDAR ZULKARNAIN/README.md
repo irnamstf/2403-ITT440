@@ -41,6 +41,10 @@ The platform that is used to write, compile and run the codes for `client-server
 
 ![FreeBSD-logo](https://github.com/addff/2403-ITT440/assets/166004983/d57c7009-31e8-46d1-9ea9-5470c019decb)
 
+_The diagram below showing common commands used in socket programming with C language_ :
+
+![Screenshot 2024-05-02 171924](https://github.com/addff/2403-ITT440/assets/166004983/4ae9432f-2a7a-4597-b760-29dc3d3c007e)
+
 ### Server Code :
 
 ```C
@@ -160,7 +164,6 @@ int main() {
 
 ![Screenshot 2024-05-01 234747](https://github.com/addff/2403-ITT440/assets/166004983/827ecd98-5650-4329-8a08-7f026d598cab)
 
-
 ### Output :
 
 The output in server terminal is as follows:
@@ -182,6 +185,10 @@ The output in client terminal is as follows:
  The platform that is used to write, compile and run the codes for `client-server` for __Python language__ is __Visual Studio Code (VS Code)__, a free and easy to use platform for beginner to explore. __VS Code__ is a source-code editor developed by *Microsoft* for Windows, Linux, macOS and web browsers. Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded version control with Git. User can install Python extension packs inside __VS Code__ so that it can be used as a Python coding tool.
 
 ![vscode](https://github.com/addff/2403-ITT440/assets/166004983/b4ea65e1-e601-417b-ad38-7ec73d54c17d)
+
+_The diagram below showing common commands used in socket programming with Python language_ :
+
+![Screenshot 2024-05-02 171940](https://github.com/addff/2403-ITT440/assets/166004983/d969d8c2-e6af-49af-9460-0224f8b3bf24)
 
  ### Server Code :
 
@@ -254,7 +261,7 @@ except ConnectionRefusedError:
  
  ## C or Python, Which Language is Better for Socket Programming?
 
-There is no definite answer for above question as different programmers would have different opinion on which language is more suitable for socket programming. Alas, what programmer seek in learning and creating socket programming will differ on which language that they use. At the end of the day, both languages give different exposure and knowledge to its user. In conclusion, both __C__ and __Python__ are good language to use for socket programming. The most noticeable differences between both languages are as shown below:
+There is no definite answer for above question as different programmers would have different opinion on which language is more suitable for socket programming. Alas, what programmer seek in learning and creating socket programming will differ on which language that they use. At the end of the day, both languages give different exposure and knowledge to its user. In conclusion, both __C__ and __Python__ are good languages to use for socket programming. The most noticeable differences between both languages are as shown below:
 
  | Socket Programming with C Language                              | Socket Programming with Python Language                    |
  | --------------------------------------------------------------- | ---------------------------------------------------------- |
