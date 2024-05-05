@@ -1,5 +1,23 @@
-# 2403-ITT440
+ `MUHAMMAD FIRDAUS BIN ZAMZURI/2022455426`
+ # HOW TO COMPILE A SIMPLE PHYTON PROGRAM
 
-<img src="https://lh3.googleusercontent.com/pw/AP1GczO7H-Mn88PLqvD0QNuWf72WniQk5qKMFw-zjuHtnFfp9bZligR9cvLCWi73IUpJFg8kQYv19-s45bsP10MkxEXvys6_FOxCjQHIVrrKvFVh1WxE1gOUIovaJAMyfX6ZRM6hmuP7rgEWDmui4JUbnG_tmqhr0Qx8XH3btz_Mmu_LAX3HUp3Xtn-zny4Zm127stBhoL_Xsdw7S3YVqGxsBXW-1mYXQjabGMpNOHTh1XGx3slhU4Q0SIpm9_BsAZirg3zilheZAr_L5rtG7MJDfkiRGtILK95URoXAWFjnzq9OLvAngnndB3FHDAvhNtGSBopi3SD_S6gYQOFx6FBVwbpH9xRoUm9DuHiTT7nhWTgai8l5MmIjWQyiHyKK5LF8amH-GpyTGMQhDwrT5Z-CF4lKi-w9HAfXccgakLbDTakv7B7AndkHNq-92PR2I1bB320YzdiKzIDUFZ_D3QT7vZF05dnacv1yVJPmfaN-PxeUDtOvt-Sf8nH-Kh1TjzynGKC3gcE0iHAMgQbpznJwHHiG145QuRNIvLVFWUJ55CLcbgWRQ0jNmbp4bq5MpB9fb6mNLjkmDEiMCUXcMijd8rH1f48LuNAxxIHCwQpy7Jk-l5d7MI0iDBWMpgYOLoeaSeI0DEbSAhTpoGaND6_S8Ih5rW3sKuSLLaVNs977l0d1pgXpz8BtY6ORoonxk4ESyxMnkltNAu3GylAFjIud4lYGUolUhejXMO7AbbkA7KkAuSUKu3bG9hCY8TvRoEpJLVxLl5Bts5HywBYj1Mngd-CQRtYfzaQAqtNCHoBA3FX-9d-U-zyBOgIA-18TzaNaVarG9WO_pSZpE_uSadtzxi9eDFvSZ3Ad8KaMv5EHcVZuoZP7CD7S5qDhGF0MgNSlxXhmOv2fxLMHXzXfQWXr98h-WC3hqK_hzl1Qk9X_y52ajhsksneT9ot83RnskoRL9RFEjS13VuBXzabvUMjSlpugD6DaFQazoetwJOX6LWIptw5aj5KZs0r0oRFS62wr5wI=w720-h720-s-no-gm?authuser=0"
-     alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+ ## what is python language
+ Python is a high-level programming language known for its simplicity and 
+ readability. It was created by Guido van Rossum and first released in 1991.
+
+
+## Advantages of python
+
+ * **High-Level and Readable**: Python is a high-level programming language, meaning it abstracts away much of the complexity of the machine, allowing developers to focus on solving problems rather than worrying about low-level details. Its syntax is designed to be easily readable and understandable, with a clear and concise structure.
+ 
+* **Versatility**: Python is a versatile language that can be used for a wide range of applications. Whether you're building simple scripts, web applications, data analysis tools, artificial intelligence systems, or anything in between, Python has libraries and frameworks to support your needs.
+
+* **Community and Ecosystem**: Python has a large and active community of developers who contribute to its ecosystem by creating libraries, frameworks, and tools. This vibrant community ensures that there are solutions available for almost any problem you may encounter, and it also provides support and resources for learners and experienced developers alike.
+
+* **Cross-Platform**: Python is a cross-platform language, meaning it can run on various operating systems, including Windows, macOS, and Linux. This makes it an ideal choice for developing applications that need to run on different platforms without modification.
+
+* **Support for Multiple Paradigms**: Python supports multiple programming paradigms, including procedural, object-oriented, and functional programming. This flexibility allows developers to choose the paradigm that best suits their project and coding style.
+
+* **Ease of Learning**: Python's simplicity and readability make it an excellent choice for beginners who are new to programming. Its syntax is designed to be clear and intuitive, which reduces the learning curve and allows new developers to start writing code quickly.
+
+* **Open Source**: Python is open source, meaning its source code is freely available for anyone to use, modify, and distribute. This fosters collaboration and innovation within the community, as developers can contribute improvements and enhancements to the language itself.
