@@ -1,9 +1,11 @@
+Student Name : Muhammad Aqil Danish Bin Saad Roni                
+
+Student ID : 2023399417
+
 # CREATE BASIC WEB SERVER USING C SOCKET AND HTML
 ## What is C socket ?
 
-C socket is a mechanism for network communication in the C programming language. 
-
-It enables data exchange between two systems over a network (internet) using the TCP or UDP.
+C socket is a mechanism for network communication in C that enables data exchange between two systems over a network (internet) using the TCP or UDP.
 
 Below is the common and important function when we want to start using C socket :
 
