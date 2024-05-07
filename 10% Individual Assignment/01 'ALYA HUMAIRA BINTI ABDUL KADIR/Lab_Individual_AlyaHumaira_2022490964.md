@@ -19,7 +19,8 @@ The most common way of sending signals to processes is using the keyboard. There
   * Value: 2
   * Action: A (Interrupt from keyboard)
   * Example Coding:
-
+  
+...
 #include<stdio.h>  
 #include<signal.h>  
 #include<unistd.h>  
@@ -39,3 +40,4 @@ while(1)
   sleep(1);  
 return 0;  
 }  
+...
