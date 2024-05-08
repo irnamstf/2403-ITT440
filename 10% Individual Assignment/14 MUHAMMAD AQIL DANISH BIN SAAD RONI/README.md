@@ -5,12 +5,12 @@ Student ID : 2023399417
 # CREATE BASIC WEB SERVER USING C SOCKET AND HTML
 ## What is C socket ?
 
-C socket is a mechanism for network communication in C that enables data exchange between two systems over a network (internet) using the TCP or UDP.
+C socket is a mechanism for network communication in C that enables data exchange between two systems over a network (internet) using the TCP/UDP.
 
 Below is the common and important function when we want to start using C socket :
 
 ![image](https://github.com/addff/2403-ITT440/assets/166005754/80ef5ed2-e08c-424b-9dd1-0adaaeff69f1)
-
+![image](https://github.com/addff/2403-ITT440/assets/166005754/bad416ed-1f02-437b-8547-c5b16c229ad4)
 
 ## Function: `Header`
 These headers are included for various functionalities required by the C program:
@@ -39,7 +39,6 @@ Below is the code snippet based on the given headers above :
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <netinet/in.h>
-
 #define PORT 8080                        --> default HTTP port for web server
 #define BUFFER_SIZE 1024
 #define HTML_FILE "aqil/design.html"     --> define the HTML file for website design code
@@ -155,11 +154,9 @@ int main() {
 }
 ```
 # Simple Website Design (using HTML)
-
-The `aqil.html` file is a simple webpage design using HTML and internal CSS. The webpage has the following structure:
+The `design.html` file is a simple webpage design using HTML and internal CSS. The webpage has the following structure:
 
 ## HTML Structure
-
 The HTML file is organized into different sections:
 
 - **Header**: The header includes the title of the website. It's styled with a background color and centered text.
@@ -185,7 +182,6 @@ The HTML file is organized into different sections:
     ```html
     <section>
         <h2>Welcome to my website!</h2>
-        <p>This is a minimalistic website. Customize this section with your own content.</p>
     </section>
     ```
 
@@ -263,10 +259,30 @@ footer {
 }
 
 ```
-
+## Execution
+After completing the whole coding, we need to compile them first :
+```
+gcc aqil/assignment.c        
+```
+Then, we can run the the compiled coding, in my case, it will be named as a.out
+```
+./a.out     
+```
 
 ## Output :
+![image](https://github.com/addff/2403-ITT440/assets/166005754/b4272c8d-fa06-4559-a8fd-36b63aec4ef5)
+- this figure shows that the server already started listening on port 8080
+
+  
 ![image](https://github.com/addff/2403-ITT440/assets/166005754/6a3a4a8e-ca7b-41a2-8abe-ccf7ca469d00)
+
+
+if we go back on MobaXTerm after connecting from the client, it will shows another output :
+
+![image](https://github.com/addff/2403-ITT440/assets/166005754/7f2785b4-e0f9-41ee-adf2-15d29f54402a)
+
+Thus, this shows that our C socket is well-functioning and working well.
+That's all from me, thank you :)
 
 ## Video :
 
