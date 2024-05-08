@@ -285,5 +285,5 @@ Thus, this shows that our C socket is well-functioning and working well.
 That's all from me, thank you :)
 
 ## Video :
-
+https://youtu.be/azbNBSEIO_k
 
