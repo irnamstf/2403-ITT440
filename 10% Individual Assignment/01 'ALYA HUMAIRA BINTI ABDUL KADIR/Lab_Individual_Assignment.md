@@ -1,7 +1,7 @@
-###Name: 'Alya Humaira Binti Abdul Kadir
-###Student ID: 2022490964
-###Class: CS2554A
-###Subject: ITT440
+### Name: 'Alya Humaira Binti Abdul Kadir
+### Student ID: 2022490964
+### Class: CS2554A
+### Subject: ITT440
 
 # **Signal SIGINT**
 
