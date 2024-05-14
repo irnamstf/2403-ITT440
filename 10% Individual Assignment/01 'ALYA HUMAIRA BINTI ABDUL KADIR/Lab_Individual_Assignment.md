@@ -57,4 +57,5 @@ The `output` will be like this:
 ^Creceived SIGINT
 ^Creceived SIGINT
 ````
-# Video
+
+Thank you for reading my assignment! #smile#
