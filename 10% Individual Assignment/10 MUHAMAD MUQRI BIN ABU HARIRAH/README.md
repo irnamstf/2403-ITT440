@@ -2,7 +2,7 @@
 # Comparison Between C And Python
 
 ## Origin of the C language
-The C language is a imperative language that is commonly used in Unix systems and is the lingua franca of implanted software development. The C language was developed for the Unix operating system by Dennis Ritchie and Brian Kernighan as a systems programming language. From its inception in the early 1970s, it has grown to become one of the most widely used computer languages ever.
+The C language is a imperative language that is commonly used in Unix systems and is the lingua franca of implanted software development. The C language was developed for the Unix operating system by Dennis Ritchie as a systems programming language in 1970. From its inception in the early 1970s, it has grown to become one of the most widely used computer languages ever.
 
 
 ## Why C
