@@ -55,14 +55,14 @@ return 0;
 ```
 
 ## Origin of Python
-Python is programming language that was created by Guido van Rossum in late 1980s as a successor to the ABC programming language. Python is an Open-source, high-level and general-purpose programming language. 
+Python is programming language that was created by Guido van Rossum in late 1980s as a successor to the ABC programming language. It was created at Centrum Wiskunde & Informatica (CWI) which is situated in the Netherlands. Python is an Open-source, high-level and general-purpose programming language. 
 
 ## Why Python
 * Python can work wide different platforms such as Windows, Mac or Linux.
 * Python is a high-level language so it has a simple syntax similar to the english language.
 * Python has syntax that allows developers to write programs with fewer lines than some other     programming language.
 
-## Tools in Python language
+## Tool in Python language
 * python3
 
 ## Overview
