@@ -54,10 +54,8 @@ return 0;
 }
 ```
 
-## What is Python
-Python is programming language that was created by Guido van Rossum and it was released in 1991. Python is an Open-source, high-level and general-purpose programming language. It is used for: * Web development
-     * Software development
-     * System scripting
+## Origin of Python
+Python is programming language that was created by Guido van Rossum in late 1980s as a successor to the ABC programming language. Python is an Open-source, high-level and general-purpose programming language. 
 
 ## Why Python
 * Python can work wide different platforms such as Windows, Mac or Linux.
@@ -71,4 +69,4 @@ Python is programming language that was created by Guido van Rossum and it was r
 
 
 
-## Video comparison between C and Python
+## 
