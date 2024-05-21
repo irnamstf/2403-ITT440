@@ -1,7 +1,13 @@
 # HOW TO COMPILE A SIMPLE C PROGRAM
 
+The process of translating the C language's source code into machine code is called compilation. Considering C is a mid-level language, in order for a program to operate on our machine, it must be translated into an executable code using a compiler.
 
-The program will be compile in MobaXterm Apps. 
+We first need a compiler and a code editor to compile and run a C Program. The below example is of MobaXterm Apps with GCC compiler.
+
+## FIRST STEP : DOWNLOAD VMWARE AND SETUP 
+
+
+## SECOND STEP : DOWNLOAD MOBAXTERM
 
 
 ![individu 10% (2)](https://github.com/addff/2403-ITT440/assets/167417574/237c7cbf-46a7-4354-90ea-1ca63426fdee)
@@ -30,4 +36,12 @@ These command will compile and display your output. Output will be shown in Imag
 
 ## EXAMPLE 2 : PRINT YOUR NAME 
 
-Following step will be the same as example 1.
+Follow step from example 1.
+
+![Screenshot 2024-05-22 012913](https://github.com/addff/2403-ITT440/assets/167417574/b5036648-fd70-47c1-8fa3-bc9c597894d9)
+**Image 4**
+
+<img width="468" alt="individu 10% printName output" src="https://github.com/addff/2403-ITT440/assets/167417574/23df5d05-117a-4f82-a8fe-3214354749d6">
+**Image 5**
+
+
