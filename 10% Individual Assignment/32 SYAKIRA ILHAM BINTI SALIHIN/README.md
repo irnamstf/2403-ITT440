@@ -42,6 +42,7 @@ Follow step from example 1.
 **Image 4**
 
 <img width="468" alt="individu 10% printName output" src="https://github.com/addff/2403-ITT440/assets/167417574/23df5d05-117a-4f82-a8fe-3214354749d6">
+
 **Image 5**
 
 
