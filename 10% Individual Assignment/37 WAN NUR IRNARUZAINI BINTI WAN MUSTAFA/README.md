@@ -29,8 +29,8 @@
   - Open a terminal or command prompt and navigate to the directory where ' _client.py_ ' is located. Run the server script:
 
 
-## **- EXPECTED OUTPUT**
+## **-EXPECTED OUTPUT**
 
-#### **SERVER OUTPUT: **
+#### **SERVER OUTPUT:**
 
-#### **CLIENT OUTPUT: **
+#### **CLIENT OUTPUT:**
