@@ -19,3 +19,18 @@
   - This is the file that the client will send to server
 
 ![SS TXT](https://github.com/irnamstf/2403-ITT440/assets/167417454/cc341f83-43fb-4bf2-86ea-51fba8e151e1)
+
+### **STEP 4: RUN THE SERVER**
+  - Open a terminal or command prompt and navigate to the directory where ' _server.py_ ' is located. Run the server script:
+
+
+
+### **STEP 5: RUN THE CLIENT**
+  - Open a terminal or command prompt and navigate to the directory where ' _client.py_ ' is located. Run the server script:
+
+
+## **- EXPECTED OUTPUT**
+
+#### **SERVER OUTPUT: **
+
+#### **CLIENT OUTPUT: **
