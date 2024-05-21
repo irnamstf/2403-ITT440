@@ -3,16 +3,16 @@
   - The server will listen for incoming connections and handle receiving files from clients.
   - Save file with the name ' _server.py_ '
     
-![SS SERVER 1](https://github.com/irnamstf/2403-ITT440/assets/167417454/f7d1c6ac-466c-409d-96e5-505555592304)
-![SS SERVER 2](https://github.com/irnamstf/2403-ITT440/assets/167417454/a77ad59e-cb46-41c6-b882-29fd26c25c68)
-![SS SERVER 3](https://github.com/irnamstf/2403-ITT440/assets/167417454/127fac8e-d540-41a3-a70a-a93719a1ef40)
+![SS SERVER 1](https://github.com/irnamstf/2403-ITT440/assets/167417454/de099f9b-7979-4c90-9502-cab0b580864c)
+![SS SERVER 2](https://github.com/irnamstf/2403-ITT440/assets/167417454/9cb2dd97-9bf3-4aa3-8935-2ba900fc018b)
+![SS SERVER 3](https://github.com/irnamstf/2403-ITT440/assets/167417454/fbbf10ee-15e2-429f-b7b5-057fd821ed27)
 
 ### **STEP 2: SET UP THE CLIENT**
   - The client will connect to the server and send a file.
   - Save file with the name ' _client.py_ '
     
-![SS CLIENT1](https://github.com/irnamstf/2403-ITT440/assets/167417454/f005280d-be77-4dd7-bfe4-bf6c25b58201)
-![SS CLIENT 2](https://github.com/irnamstf/2403-ITT440/assets/167417454/ac2c68f7-ce26-4876-afba-5c3c88e4d018)
+![SS CLIENT1](https://github.com/irnamstf/2403-ITT440/assets/167417454/da50dd0b-054e-443d-ae4f-0d6ead2fbcb4)
+![SS CLIENT 2](https://github.com/irnamstf/2403-ITT440/assets/167417454/5395923a-2557-46e2-ad13-1854638aa038)
 
 ### **STEP 3: CREATE A FILE TO SEND**
   - Add some content in new file and name it ' example '
