@@ -1,26 +1,16 @@
-### UNIVERSITI TEKNOLOGI MARA (UiTM) CAWANGAN MELAKA KAMPUS JASIN
+Title : CALCULATE CUBIC NUMBER USING PARALLEL PROGRAMMING
 
-SEMESTER 4
+Name : MUHAMMAD ADLI BIN AHMAD NASSRUDIN
 
-MARCH 2023 – AUGUST 2023
+Student ID : 2022484504
 
-ITT440
+Group : M3CS2554A
 
-NETWORK PROGRAMMING 
-
-ASSIGNMENT TITLE : CALCULATE CUBIC NUMBER USING PARALLEL PROGRAMMING
-
-NAME : MUHAMMAD ADLI BIN AHMAD NASSRUDIN (2022484504)
-
-GROUP : M3CS2554A
-
-PROGRAM : CDCS255
-
-LECTURER’S NAME : SIR SHAHADAN BIN SAAD
+Lecturer's name : SIR SHAHADAN BIN SAAD
 
 # PYTHON PARALLEL PROGRAMMING
 
-### INTRODUCTION TO PYTHON PARALLEL PROGRAMMING
+### Introduction to Python Parallel Programming
 Parallel programming is a computing paradigm where multiple tasks or processes are executed simultaneously, either concurrently or in parallel, to improve performance and efficiency. In traditional sequential programming, tasks are executed one after the other, which can lead to underutilization of available computing resources, especially in modern multi-core processors and distributed systems. Parallel programming divides the task into smaller subtask using multiple cores in a processor.
  
 *The difference between serial and parallel programming:*
@@ -38,7 +28,7 @@ Parallel programming is a computing paradigm where multiple tasks or processes a
 2. Parallel programming can also solve more complex problems like CPU-intensive task. It utilizes the multiple cores of the CPU, bringing more resources to the table.
    
 ## Getting Started
-**Multiprocessing coding**
+**Multiprocessing coding:**
 ```python
 import multiprocessing
 import time
@@ -68,3 +58,16 @@ if __name__ == '__main__':
 ```
 **Output:**
 ![image](https://github.com/addff/2403-ITT440/assets/166043265/cfe4f0ec-3666-4d9c-8f42-2fb2638d9835)
+
+## Video
+The demonstration of the coding is as follows:
+
+[Coding demonstration](https://drive.google.com/file/d/1fiKjPP-cF9pJYIfE62FgW0mtfnuoDwap/view?usp=sharing)
+
+## References
+Here are some of the references uses in this project:
+* [A Guide to Python Multiprocessing and Parallel Programming](https://www.sitepoint.com/python-multiprocessing-parallel-programming/)
+* [Parallel Processing in Python](https://www.geeksforgeeks.org/parallel-processing-in-python/)
+  
+
+
