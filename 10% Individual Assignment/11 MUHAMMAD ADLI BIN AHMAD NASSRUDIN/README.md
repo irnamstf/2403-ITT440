@@ -35,29 +35,30 @@ Parallel programming is a computing paradigm where multiple tasks or processes a
 2. parallel programming can also solve more complex problems like CPU-intensive task. It utilizes the multiple cores of the CPU, bringing more resources to the table.
    
 ## Getting Started
-```C
+```python
 import multiprocessing
 import time
 
-#cubic function 
+# cubic function 
 def cubic(x):
     return x * x * x
 
 if __name__ == '__main__':
     start_time = time.time()
 
-    #represents a pool of worker processes that can be used to parallelize tasks.
+    # represents a pool of worker processes that can be used to parallelize tasks.
     pool = multiprocessing.Pool()
 
-    #creates a list of asynchronous result objects by applying the cubic function
+    # creates a list of asynchronous result objects by applying the cubic function
     result_async = [pool.apply_async(cubic, args = (i, )) for i in range(10)]
 
-    #retrieves the results of the asynchronous computations by calling the get method on each AsyncResult object
+    # retrieves the results of the asynchronous computations by calling the get method on each AsyncResult object
     results = [r.get() for r in result_async]
 
     end_time = time.time()
     execution_time = end_time - start_time
 
-    #prints the output
+    # prints the output
     print("Output: {}".format(results) ) 
     print("Execution Time: {:.6f} seconds".format(execution_time))
+```
