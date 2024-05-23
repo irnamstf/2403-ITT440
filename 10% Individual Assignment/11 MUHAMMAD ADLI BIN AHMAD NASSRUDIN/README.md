@@ -24,7 +24,9 @@ LECTURER’S NAME : SIR SHAHADAN BIN SAAD
 Parallel programming is a computing paradigm where multiple tasks or processes are executed simultaneously, either concurrently or in parallel, to improve performance and efficiency. In traditional sequential programming, tasks are executed one after the other, which can lead to underutilization of available computing resources, especially in modern multi-core processors and distributed systems. Parallel programming divides the task into smaller subtask using multiple cores in a processor.
  
 *The difference between serial and parallel programming:*
-![image](https://github.com/addff/2403-ITT440/assets/166043265/c291c285-f763-4bfd-9f90-772673707e97)
+
+![parallelProgramming](https://github.com/addff/2403-ITT440/assets/166043265/c28aa50b-505e-47f2-bcd4-b0745a67cede)
+
 
 ## Modules
  * The `thread` module allows concurrent execution for multiple threads of the same process. Meaning that it creates new threads of the same process to be executed at the same time. However, due to the Global Interpreter Lock (GIL), threading is more suitable for I/O-bound tasks rather than CPU-bound tasks.
