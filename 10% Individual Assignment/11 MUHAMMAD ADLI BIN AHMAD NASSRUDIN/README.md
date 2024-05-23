@@ -2,7 +2,7 @@ Universiti Teknologi MARA (UiTM) Cawangan Melaka Kampus Jasin
 Semester 4 (March 2023 – August 2023)
 
 ITT440 Network Programming
-Assignment 1:/n
+Assignment 1:
 Topic: Calculate Cubic Number using Parallel Programming
 Name: Muhammad Adli Bin Ahmad Nassrudin (2022484504)
 Group: M3CS2554A
