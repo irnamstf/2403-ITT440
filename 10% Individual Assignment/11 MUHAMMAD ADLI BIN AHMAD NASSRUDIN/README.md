@@ -31,8 +31,8 @@ Parallel programming is a computing paradigm where multiple tasks or processes a
  * Python’s `multiprocessing` module overcomes the GIL limitation by creating multiple processes each with its own Python interpreter and memory space. Thus, it's best suited for CPU-bound tasks as it takes full advantage of multi-core processors.
    
 ## The advantages of parallel programming
-1. computers can run the code more efficiently by executing multiple processes simultaneously, which can save time by sorting through “big data” faster than ever.
-2. parallel programming can also solve more complex problems like CPU-intensive task. It utilizes the multiple cores of the CPU, bringing more resources to the table.
+1. Computers can run the code more efficiently by executing multiple processes simultaneously, which can save time by sorting through “big data” faster than ever.
+2. Parallel programming can also solve more complex problems like CPU-intensive task. It utilizes the multiple cores of the CPU, bringing more resources to the table.
    
 ## Getting Started
 **Multiprocessing coding**
