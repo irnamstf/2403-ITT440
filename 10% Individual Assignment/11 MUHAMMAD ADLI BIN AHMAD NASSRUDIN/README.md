@@ -35,6 +35,7 @@ Parallel programming is a computing paradigm where multiple tasks or processes a
 2. parallel programming can also solve more complex problems like CPU-intensive task. It utilizes the multiple cores of the CPU, bringing more resources to the table.
    
 ## Getting Started
+**Multiprocessing coding**
 ```python
 import multiprocessing
 import time
@@ -62,3 +63,5 @@ if __name__ == '__main__':
     print("Output: {}".format(results) ) 
     print("Execution Time: {:.6f} seconds".format(execution_time))
 ```
+**Output:**
+![image](https://github.com/addff/2403-ITT440/assets/166043265/cfe4f0ec-3666-4d9c-8f42-2fb2638d9835)
