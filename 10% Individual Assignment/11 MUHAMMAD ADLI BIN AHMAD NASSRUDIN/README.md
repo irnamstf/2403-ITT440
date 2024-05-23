@@ -1,32 +1,35 @@
-Universiti Teknologi MARA (UiTM) Cawangan Melaka Kampus Jasin
-Semester 4 (March 2023 – August 2023)
+### UNIVERSITI TEKNOLOGI MARA (UiTM) CAWANGAN MELAKA KAMPUS JASIN
 
-ITT440 Network Programming
-Assignment 1:
-Topic: Calculate Cubic Number using Parallel Programming
-Name: Muhammad Adli Bin Ahmad Nassrudin (2022484504)
-Group: M3CS2554A
-Program: CDCS255
-Lecturer’s Name: Sir Shahadan Bin Saad
+SEMESTER 4
 
-Introduction to Python Parallel Programming
-Parallel programming is a computing paradigm where multiple tasks or processes are executed simultaneously, either concurrently or in parallel, to improve performance and efficiency. In traditional sequential programming, tasks are executed one after the other, which can lead to underutilization of available computing resources, especially in modern multi-core processors and distributed systems. Parallel programming divides tasks into smaller subtasks using multiple cores in a processor.
+MARCH 2023 – AUGUST 2023
 
-The Difference Between Serial and Parallel Programming
-Serial Programming:
+ITT440
 
-Tasks are executed one after another.
-Can lead to underutilization of CPU resources.
-Parallel Programming:
+NETWORK PROGRAMMING 
 
-Tasks are executed simultaneously.
-Utilizes multiple cores of the CPU, improving efficiency and performance.
-Saves time by processing large datasets faster.
-Solves more complex, CPU-intensive tasks.
-Key Concepts in Python Parallel Programming
-Multithreading
-Python's threading module allows for concurrent execution of multiple threads within the same process. This means it creates new threads that can be executed at the same time. However, due to the Global Interpreter Lock (GIL), threading is more suitable for I/O-bound tasks rather than CPU-bound tasks.
+ASSIGNMENT TITLE :
 
-Multiprocessing
-Python’s multiprocessing module overcomes the GIL limitation by creating multiple processes, each with its own Python interpreter and memory space. It is best suited for CPU-bound tasks as it takes full advantage of multi-core processors.
+Calculate Cubic Number using Parallel Programming
+
+NAME : MUHAMMAD ADLI BIN AHMAD NASSRUDIN (2022484504)
+
+GROUP : M3CS2554A
+
+PROGRAM : CDCS255
+
+LECTURER’S NAME : SIR SHAHADAN BIN SAAD
+
+### INTRODUCTION TO PYTHON PARALLEL PROGRAMMING
+Parallel programming is a computing paradigm where multiple tasks or processes are executed simultaneously, either concurrently or in parallel, to improve performance and efficiency. In traditional sequential programming, tasks are executed one after the other, which can lead to underutilization of available computing resources, especially in modern multi-core processors and distributed systems. Parallel programming divides the task into smaller subtask using multiple cores in a processor.
+ 
+## The difference between serial and parallel programming
+
+The advantages of parallel programming are that computers can run the code more efficiently by executing multiple processes simultaneously, which can save time by sorting through “big data” faster than ever. Additionally, parallel programming can also solve more complex problems like CPU-intensive task. It utilizes the multiple cores of the CPU, bringing more resources to the table. 
+One key point of parallel programming is multithreading. Python's threading module allows concurrent execution of multiple threads within the same process. Meaning it creates new threads to be executed at the same time. However, due to the Global Interpreter Lock (GIL), threading is more suitable for I/O-bound tasks rather than CPU-bound tasks.A
+Next is the multiprocessing. Python’s multiprocessing module overcomes the GIL limitation by creating multiple processes each with its own Python interpreter and memory space. It's best suited for CPU-bound tasks as it takes full advantage of multi-core processors.
+
+
+
+
 
