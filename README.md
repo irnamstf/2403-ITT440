@@ -60,19 +60,19 @@ Python is also used to build ERP and e-commerce systems:
 * Tryton is a three-tier high-level general purpose application platform.
 
 ## Pros of Phyton
-* Beginner friendly
+### Beginner friendly
 Python is a programming language renowned for its beginner-friendliness. One of the key factors contributing to its ease of learning is its straightforward syntax. Python code is clear and easy to read, which simplifies the process of writing and debugging for newcomers.
 
 Additionally, Python's versatility enhances its appeal to beginners. It can be employed in a variety of applications, ranging from web development to data analysis and machine learning. This allows beginners to start learning Python within a context that aligns with their interests.
 
 Moreover, Python offers a wealth of resources, including online tutorials, video courses, and interactive coding platforms. These resources provide step-by-step guidance, enabling learners to build their skills methodically.
 
-* Well-supported
+### Well-supported
 Python boasts a large, vibrant community of developers known for their friendliness, welcoming nature, and supportiveness. You can seek assistance in social media groups and online forums, regardless of your native language.
 
 The Python community actively contributes to open-source projects, maintaining numerous libraries and frameworks. Having a community where you can pose questions to experienced professionals and receive feedback is crucial when learning a new language.
 
-* Flexible
+### Flexible
 Python is a high-level language, making it easy to read and write by abstracting away low-level details and offering a higher level of abstraction. Despite its simplicity, it is also a powerful language suitable for complex projects.
 
 A key factor in Python's flexibility is its extensive library of modules and packages. These libraries offer pre-written code that can be seamlessly integrated into projects, saving developers significant time and effort. Python is versatile and can be used in web development, data analysis, machine learning, and scientific computing, among other areas.
@@ -80,21 +80,21 @@ A key factor in Python's flexibility is its extensive library of modules and pac
 Moreover, Python's flexibility is enhanced by its compatibility with other languages. It can be easily integrated with languages like C++ and Java, enabling developers to use Python for specific tasks while relying on other languages for different aspects of a project.
 
 ## Cons of Phyton
-* Slower than compiled languages
+### Slower than compiled languages
 One major drawback of Python is that it is slower compared to compiled languages like C++ or Java. This is because Python is an interpreted language, meaning the interpreter executes each line of code sequentially. In contrast, compiled languages are translated into machine code before execution, resulting in faster performance.
 
 This speed difference is especially noticeable when handling large datasets or performing complex calculations, making Python less ideal for performance-critical applications. However, there are ways to optimize Python code, such as using NumPy for numerical operations or Cython to compile Python code into C.
 
 Despite its performance limitations, Python remains popular for prototyping and experimentation due to its ease of use and extensive library of modules. While developers may need to consider other languages or tools for optimizing performance-critical applications, Python's strengths often outweigh its weaknesses for many purposes.
 
-* Less secure
+### Less secure
 Regarding security, Python is considered less secure than some other programming languages like Java or C++. This is partly due to Python being dynamically typed, meaning data types are determined at runtime rather than compile time, which can lead to vulnerabilities such as buffer overflows or injection attacks.
 
 Moreover, Python's popularity and ease of use make it a common target for hackers seeking to exploit code vulnerabilities. The abundance of third-party libraries and modules also poses security risks if they are not thoroughly vetted for vulnerabilities.
 
 However, Python does include built-in security features, such as the "os" module in its standard library, which offers secure methods for accessing files and directories. Additionally, there are third-party tools and libraries available to enhance Python's security, such as PyCryptodome for encryption and hashing.
 
-* Not ideal work environment
+### Not ideal work environment
 One potential drawback of using Python in a work environment is that it might not be suitable for all types of projects or teams. For instance, if a project demands high performance or low-level system access, a language like C++ might be a better option.
 
 Additionally, Python's dynamic nature and lack of strong typing can make maintaining and debugging code more challenging as projects become larger and more complex. This can result in increased development time and costs, as well as potential errors or security vulnerabilities.
