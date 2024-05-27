@@ -1,8 +1,8 @@
 # ITT440 Individual Assignment 10%
-## **Name:** Farina Athirah binti Roslee
-## **Student ID:** 2022214142
-## **Group:** M3CS2554A
-## **Lecturer's Name:** Sir Shahadan Saad
+## Name: Farina Athirah binti Roslee
+## Student ID: 2022214142
+## Group: M3CS2554A
+## Lecturer's Name: Sir Shahadan Saad
 
 # SIGTERM
 ## Introduction to Signal
@@ -15,7 +15,7 @@
 - SIGTERM signal is used for **terminating a program** and serve to exit program **gracefully**.
 - The sigaction() function and the struct of the same name, defined in the system header `signal.h`.
 - The SIGTERM can also be referred as a soft kill because the process that receives the SIGTERM signal may choose to ignore it.
-- Unlike SIGGKILL, this signal can be blocked, handled and ignored. The shell command `kill` generates 'SIGTERM' by default.
+- Unlike SIGGKILL, this signal can be blocked, handled and ignored. The shell command `kill` (built-in sheel commands) generates 'SIGTERM' by default.
 
 ### How to Send SIGTERM?
 - To send SIGTERM signal in C, we can use `kill()` function. Remember that SIGTERM allows the process to clean up and exit gracefully. It is much more better to use SIGTERM first and only use SIGKILL for last resort.
@@ -68,3 +68,5 @@ void sigterm(){
 ## References
 - [Termination Signals](https://www.gnu.org/software/libc/manual/html_node/Termination-Signals.html#:~:text=The%20SIGTERM%20signal%20is%20a,kill%20generates%20SIGTERM%20by%20default)
 - [Catch SIGTERM Exit Gracefully](https://airtower.wordpress.com/2010/06/16/catch-sigterm-exit-gracefully/)
+- [Understanding Signals in the C Language: Harness the Power of Asynchronous Event Handling](https://medium.com/@razika28/signals-ad83f38f80b6)
+- [C library function - signal()](https://www.tutorialspoint.com/c_standard_library/c_function_signal.htm)
