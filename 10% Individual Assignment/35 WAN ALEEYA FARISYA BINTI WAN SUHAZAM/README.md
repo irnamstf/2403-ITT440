@@ -47,7 +47,7 @@ works best for the intended application.
 ```
 $ echo "Hello World!"
 ```
-### Output:
+### Sample Output:
 ![image](https://github.com/addff/2403-ITT440/assets/166004185/74d1e4e9-bf6e-492e-9047-a9d54242cc75)
 
 ### Inserting a Value in a Variable and Displaying It
