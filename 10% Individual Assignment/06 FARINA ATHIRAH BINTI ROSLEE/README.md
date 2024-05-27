@@ -19,7 +19,7 @@
 - To send SIGTERM signal in C, we can use kill() function. Remember that SIGTERM allows the process to clean up and exit gracefully. It is much mire better to use SIGTERM first and only use SIGKILL for last resort.
 
 ## C Program for SIGTERM
-````
+```C
 #include <signal.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -56,7 +56,7 @@ void sigterm(){
         signal(SIGTERM, sigterm);
         printf("CHILD: I have received SIGTERM\n");
 }
-````
+```
 ## Sample Output
 ![ss ](https://github.com/addff/2403-ITT440/assets/166006878/5fb26bf7-182a-4f5d-8c81-dcd761d948d0)
 
