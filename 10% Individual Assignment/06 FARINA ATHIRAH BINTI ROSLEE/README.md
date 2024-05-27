@@ -65,5 +65,5 @@ void sigterm(){
 - 
 
 ## References
-- [Termination Signals] (https://www.gnu.org/software/libc/manual/html_node/Termination-Signals.html#:~:text=The%20SIGTERM%20signal%20is%20a,kill%20generates%20SIGTERM%20by%20default.)
+- [Termination Signals] (https://www.gnu.org/software/libc/manual/html_node/Termination-Signals.html#:~:text=The%20SIGTERM%20signal%20is%20a,kill%20generates%20SIGTERM%20by%20default).
 - 
