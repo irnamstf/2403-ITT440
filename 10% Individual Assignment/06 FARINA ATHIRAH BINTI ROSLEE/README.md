@@ -1,15 +1,15 @@
-## **ITT440 Individual Assignment 10%**
-### **Name:** Farina Athirah binti Roslee
-### **Student ID:** 2022214142
-### **Group:** M3CS2554A
-### **Lecturer's Name:** Sir Shahadan Saad
+# ITT440 Individual Assignment 10%
+## **Name:** Farina Athirah binti Roslee
+## **Student ID:** 2022214142
+## **Group:** M3CS2554A
+## **Lecturer's Name:** Sir Shahadan Saad
 
 # SIGTERM
 ## Introduction to Signal
 - A signal can be defined as a software interrupt or a notification that alerts a process about an event occurring in the system.
 - Signals offer a versatile mechanism for efficient event handling and coordination between processes, enhancing the overall functionality and reliability of C programs.
 - In other words, signal serve as a mean of communication between a running program (process) and the operating system, allowing the program to respond to various events in an unsynchronized manner.
-- There are a few signal functions that can be used and each function has its own usage, such as 'kill()' or 'raise()' functions.
+- There are a few signal functions that can be used and each function has its own usage, such as **kill()** or **raise()** functions.
 
 ## What is SIGTERM?
 - SIGTERM signal is used for **terminating a program** and serve to exit program **gracefully**.
