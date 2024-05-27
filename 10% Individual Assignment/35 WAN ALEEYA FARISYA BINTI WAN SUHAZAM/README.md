@@ -59,3 +59,6 @@ $ echo "$x"
 ```
 ### Sample Output:
 ![image](https://github.com/addff/2403-ITT440/assets/166004185/776c3513-ef19-462a-9e22-99ea5065e04c)
+
+## Video Demonstration
+Click [here](https://youtu.be/g0D49SmpkkU) to watch the video demonstration.
