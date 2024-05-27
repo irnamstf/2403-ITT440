@@ -42,8 +42,9 @@ works best for the intended application.
 * Scripting languages may be more prone to costly errors compared to other programming languages.
 * Database tasks that require a high level of database access are not suitable for shell scripting.
 
-## Shell Script Example
+## **Shell Scripting using Bourne Shell `sh`**
+### Displaying Any Phrase
 ```
-$ echo "Hello World"
+$ echo "Hello World!"
 ```
-* The output would be **Hello World**
+* The output would be _**Hello World!**_
