@@ -1,6 +1,6 @@
-# Name: Wan Aleeya Farisya binti Wan Suhazam
-# Student ID: 2022612854
-# Lecturer's Name: Shahadan bin Saad
+Name: Wan Aleeya Farisya binti Wan Suhazam
+Student ID: 2022612854
+Lecturer's Name: Shahadan bin Saad
 
 # **How to Write a Simple Shell Script**
 ## What is a Shell Script?
