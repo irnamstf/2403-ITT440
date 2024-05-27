@@ -47,5 +47,15 @@ works best for the intended application.
 ```
 $ echo "Hello World!"
 ```
+### Output:
 ![image](https://github.com/addff/2403-ITT440/assets/166004185/74d1e4e9-bf6e-492e-9047-a9d54242cc75)
 
+### Inserting a Value in a Variable and Displaying It
+```
+$ read x
+// User inputs the value to insert into the variable
+$ echo "$x"
+// The value that user input will be displayed here
+```
+### Sample Output:
+![image](https://github.com/addff/2403-ITT440/assets/166004185/776c3513-ef19-462a-9e22-99ea5065e04c)
