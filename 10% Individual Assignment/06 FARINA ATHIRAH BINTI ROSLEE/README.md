@@ -1,3 +1,9 @@
+## ITT440 Individual Assignment 10%
+### Name: Farina Athirah binti Roslee
+### Student ID: 2022214142
+### Group: M3CS2554A
+### Lecturer's Name: Sir Shahadan Saad
+
 # SIGTERM
 ## Introduction to Signal
 - A signal can be defined as a software interrupt or a notification that alerts a process about an event occurring in the system.
