@@ -1,8 +1,8 @@
 # ITT440 Individual Assignment 10%
-- Name: Farina Athirah binti Roslee
-- Student ID: 2022214142
-- Group: M3CS2554A
-- Lecturer's Name: Sir Shahadan Saad
+### Name: Farina Athirah binti Roslee
+### Student ID: 2022214142
+### Group: M3CS2554A
+### Lecturer's Name: Sir Shahadan Saad
 
 # SIGTERM
 ## Introduction to Signal
