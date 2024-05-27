@@ -1,3 +1,7 @@
+# Name: Wan Aleeya Farisya binti Wan Suhazam
+# Student ID: 2022612854
+# Lecturer's Name: Shahadan bin Saad
+
 # **How to Write a Simple Shell Script**
 ## What is a Shell Script?
 Shell scripting is the process of programming an operating system to perform particular actions based on a text file
