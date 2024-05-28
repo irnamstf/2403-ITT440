@@ -61,7 +61,7 @@ int main() {
 ![image](https://github.com/addff/2403-ITT440/assets/166041339/0aa2920a-1ad8-47e0-b891-34623e4895b9)
 
 ## Youtube Link
-- This is the youtube link for further explanation regarding SIGTERM in C 
+- This is the youtube link for further explanation regarding SIGTERM in C (https://youtu.be/NHQXUX6pg1g?si=3JV5-80uUslnFFUa)
 
 ## References
 - [Termination Signals](https://www.gnu.org/software/libc/manual/html_node/Termination-Signals.html#:~:text=The%20SIGTERM%20signal%20is%20a,kill%20generates%20SIGTERM%20by%20default)
