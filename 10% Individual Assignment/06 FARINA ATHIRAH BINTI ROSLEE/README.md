@@ -28,39 +28,37 @@
 #include <sys/types.h>
 #include <unistd.h>
 
-void sigterm();
-void main(){
-
-        int pid;
-        pid = fork();   //get child process
-
-        if (pid < 0){
-
-                perror ("fork");
-                exit(1);
-        }
-
-        if (pid = 0){
-
-                signal(SIGTERM, sigterm);
-                for (int x = 1;; x++);
-        }
-
-        else {          //parent
-
-                printf("\nPARENT: sending SIGTERM\n\n");
-                kill (pid, SIGTERM);
-                sleep(1);       //pause for 1 second
-        }
+// Signal handler function for SIGTERM
+void sigterm() {
+    printf("CHILD: I have received SIGTERM\n");
+    exit(0); // Exit after handling the signal
 }
-void sigterm(){
 
-        signal(SIGTERM, sigterm);
-        printf("CHILD: I have received SIGTERM\n");
+int main() {
+    int pid;
+    pid = fork(); // Create a child process
+
+    if (pid < 0) {
+        perror("fork");
+        exit(1); // Exit if fork fails
+    }
+
+    if (pid == 0) { // Child process
+        signal(SIGTERM, sigterm); // Register signal handler for SIGTERM
+        for (int x = 1;; x++); // Infinite loop
+    } else { // Parent process
+        printf("\nPARENT: sending SIGTERM\n\n");
+        sleep(1); // Ensure the child process is ready to receive the signal
+        kill(pid, SIGTERM); // Send SIGTERM to child process
+        sleep(1); // Pause for 1 second to allow the child process to handle the signal
+    }
+
+    return 0;
 }
+
 ```
 ## Sample Output
-![ss ](https://github.com/addff/2403-ITT440/assets/166006878/5fb26bf7-182a-4f5d-8c81-dcd761d948d0)
+![image](https://github.com/addff/2403-ITT440/assets/166041339/0aa2920a-1ad8-47e0-b891-34623e4895b9)
 
 ## Youtube Link
 - This is the youtube link for further explanation regarding SIGTERM in C 
