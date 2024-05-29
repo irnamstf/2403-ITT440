@@ -3,15 +3,15 @@
 ## INTRODUCTION TO SIGNAL
 - A signal is a **software generated interrupt** that is sent to a process by the OS because of when user press ctrl-c or another process tell something to this process.
 There are fix set of signals that can be sent to a process. Signal are identified by integers. 
-- It is asynchronously sent to a running program to notify it of some event. The system interrupts the process’ normal execution to trigger a specific reaction like, among other things, terminating it. Hence, signals are a sort of **inter-process communication**.
+- It is asynchronously sent to a running program to notify it of some event. The system interrupts the process normal execution to trigger a specific reaction like, among other things, terminating it. Hence, signals are a sort of **inter-process communication**.
 
 ## HANDLING SIGHUP IN C
 - The SIGHUP (“hang-up”) signal is used to **report that the user’s terminal is disconnected**.
 - This signal is also used to report the termination of the controlling process on a terminal to jobs associated with that session, where the termination effectively disconnects all processes in the session from the controlling terminal.
 - SIGHUP is commonly used to instruct deamon processes to reload the configuration files **without restarting it**. 
-- The signal can be sent manually using function such as `kill()` or `raise()`. The standard library provides functions such as `signal()` to register signal handlers. This function defines the actione need to be taken when the signal is received.
+- The signal can be sent manually using function such as `kill()` or `raise()`. The standard library provides functions such as `signal()` to register signal handlers. This function defines the action need to be taken when the signal is received.
 
-## SAMPLE OUTPUT
+## SAMPLE CODING
 ````C
 #include <signal.h>
 #include <stdio.h>
@@ -52,6 +52,7 @@ void sighup(){
 ![ss2](https://github.com/addff/2403-ITT440/assets/166041339/af16fd7c-facd-42cd-a56a-2adac184b671)
 
 ## YOUTUBE LINK
+-Here is a youtube link video for further information about SIGHUP in C
 
 ## REFERENCES
 - [Signals in C Language](https://www.geeksforgeeks.org/signals-c-language/)
