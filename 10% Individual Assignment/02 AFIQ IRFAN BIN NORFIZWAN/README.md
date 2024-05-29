@@ -52,7 +52,7 @@ void sighup(){
 ![ss2](https://github.com/addff/2403-ITT440/assets/166041339/af16fd7c-facd-42cd-a56a-2adac184b671)
 
 ## YOUTUBE LINK
--Here is a youtube link video for further information about SIGHUP in C
+- Here is a youtube link video for further information about SIGHUP in C
 - https://youtu.be/XUtkG6FqS3M
 
 ## REFERENCES
