@@ -44,7 +44,7 @@ void main(){
 
 void sighup(){
     signal (SIGHUP, sighup);
-    printf ("CHILD: I have received SIGHUP\n");
+    printf ("hangup\n");
 }
 ````
 ## SAMPLE OUTPUT
@@ -53,6 +53,7 @@ void sighup(){
 
 ## YOUTUBE LINK
 -Here is a youtube link video for further information about SIGHUP in C
+- https://youtu.be/XUtkG6FqS3M
 
 ## REFERENCES
 - [Signals in C Language](https://www.geeksforgeeks.org/signals-c-language/)
