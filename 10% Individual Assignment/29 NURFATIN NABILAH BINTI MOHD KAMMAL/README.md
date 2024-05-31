@@ -1,84 +1,71 @@
-# VMware Installation 
-## Step 1 : Downloading VMware Workstation Player 
-1.Download VMware Workstation Player from the link : 
-https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html 
+#TASK: PYTHON PARALLEL PROGRAMMING#
 
-2.Click on the download now and choose based on user operating system
+********************************************************************************
+##THE MAXIMUM NUMBER OF PROCESSES CAN BE RUN##
 
+- The maximum number of processes you can run at a time is limited by the number of processors in your computer.
+- If you don't know how many processors are present in the machine, the cpu_count() function in multiprocessing will show it.
+  
+    import multiprocessing as mp
+    print("Number of processors: ", mp.cpu_count())
+  
+****************************************************************************************
+##SYNCHRONOUS EXECUTION VS ASYNCHRONOUS EXECUTION##
+ --------------------------------------------------------------------------------
+*        SYNCHRONOUS EXECUTION          *       ASYNCHRONOUS EXECUTION           *
+ --------------------------------------------------------------------------------
+* - A synchronus execution is one the   *  - Asynchronous, on the other hand,    *
+*   processes are completed in the      *    same doesn't involve locking.       *
+*   oder in which it was started.       *  - As a results, the order of results  *
+* - This is achieved by locking the     *    can get mixed up but usually gets   *
+*   main program until the respective   *    done quicker.                       *
+*   processes are finished.             *                                        *
+ --------------------------------------------------------------------------------  
+ 
+****************************************************************************************
+##CREATE A PROCESS WHICH PRINTS THE ASSIGNED ID##
 
-![image](https://github.com/addff/2403-ITT440/assets/167417723/2b83ca1f-ee13-4ebe-bb41-94c854a2b562)
+- By subclassing multiprocessing.process, you can create a process that runs independently.
+- By the extending the __init__ method you can initialize resource and by implementing Process.run() method you can write the code for the subprocess.
 
+    import multiprocessing
+    import time
 
-3.Go to Download Folder . 
+    class Process(multiprocessing.Process):
+        def ___init___(self, id):
+            super(Process, self). ___init___()
+            self.id = id
+        def ___init___(self):
+            time.sleep(1)
+            print("I'm the process witch id: {}".format(self.id))
 
+- To spawn the process, we need to initialize our Process object and invoke Process.start() method. Here Process.start() will create a new process and will invike the Process.run() method.
+- The code after p.start() will be executed immediately before the task completion of process p.
+- To wait for the task completion, you can use Process.join().
 
-![image](https://github.com/addff/2403-ITT440/assets/167417723/6dab54a6-0090-4791-81d4-b60efd0627e8)
+    import multiprocessing
+    import time
 
+    class Process(multiprocessing.Process):
+        def ___init___(self, id):
+            super(Process, self). ___init___()
+            self.id = id
+        def ___init___(self):
+            time.sleep(1)
+            print("I'm the process witch id: {}".format(self.id))
+    if ___name___ == '__main__':
+        p = Process(0)
+        p.start()
+        p.join()
+        p = Process(1)
+        p.start()
+        p.join()
 
-4.Click the VMware downloaded File and Install it.
+****************************************************************************************
+##POOL CLASS##
 
-
-![image](https://github.com/addff/2403-ITT440/assets/167417723/426513e3-5110-4459-a6a1-74aad2890280)
-
-5.Click on VMware Software and choose “ Run as administrator ”.
-
-
-
-6.Click on "Next" to the Installation wizard.
-
-
-
-![image](https://github.com/addff/2403-ITT440/assets/167417723/82dfb854-c85c-4e65-abce-968f0551a0dc)
-
-
-7.Read and Accept the VMware End User license agreement.Then , click "Next" to Continue.
-
-
-
-![image](https://github.com/addff/2403-ITT440/assets/167417723/a44a3c15-aeb0-4a2a-ae0e-ee46a779c6be)
-
-
-
-
-8.Specify the Installation directory. You can also enable Enhance keyboard driver here.
-Click "Next" to continue.
-
-
-![image](https://github.com/addff/2403-ITT440/assets/167417723/387e48a6-ff36-4b5e-82f6-4e6360a535b6)
-
-
-9.You can enable product startup and join the VMware Customer experience Improvement program here.
-Click "Next" to continue.
-
-
-![image](https://github.com/addff/2403-ITT440/assets/167417723/6f685f06-f17f-47ca-b900-98b65f2468b3)
-
-
-
-10. Select the shortcuts if you want to create for easy access to VMware Workstation.
-Click "Next" to continue.
-
-
-![image](https://github.com/addff/2403-ITT440/assets/167417723/c27ae98e-b950-4a7b-9fb2-a9d25f834800)
-
-
-11.Click Install button to start the installation.
-
-
-![image](https://github.com/addff/2403-ITT440/assets/167417723/d713980c-39ef-46ea-8fd0-aaf4524dacc7)
-
-
-12.Installation will take just few seconds to complete.
+- 
 
 
-13.Once VMware is installed, click Finish, and you can proceed to install Kali on VMware.
+*******************************************************************************
 
-
-![Screenshot 2024-04-28 173416](https://github.com/addff/2403-ITT440/assets/167417723/39972175-4689-4fa1-b5f1-7de63f3705be)
-
-
-14.This is the interface of the software and you can proceed to the next process.
-
-
-
-![image](https://github.com/addff/2403-ITT440/assets/167417723/68589537-7bb0-4d15-85fe-0ce2a6f50aff)
