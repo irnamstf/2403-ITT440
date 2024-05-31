@@ -5,10 +5,10 @@
 
 - The maximum number of processes you can run at a time is limited by the number of processors in your computer.
 - If you don't know how many processors are present in the machine, the cpu_count() function in multiprocessing will show it.
-  
+  ```
     import multiprocessing as mp
     print("Number of processors: ", mp.cpu_count())
-  
+  ```
 ------------------------------------------------------------------------------------------------------------------------
 ## SYNCHRONOUS EXECUTION VS ASYNCHRONOUS EXECUTION ##
  ********************************************************************************
@@ -23,11 +23,11 @@
  ********************************************************************************  
  
 ------------------------------------------------------------------------------------------------------------------------
-##CREATE A PROCESS WHICH PRINTS THE ASSIGNED ID##
+## CREATE A PROCESS WHICH PRINTS THE ASSIGNED ID ##
 
 - By subclassing multiprocessing.process, you can create a process that runs independently.
 - By the extending the __init__ method you can initialize resource and by implementing Process.run() method you can write the code for the subprocess.
-
+```
     import multiprocessing
     import time
 
@@ -38,11 +38,11 @@
         def ___init___(self):
             time.sleep(1)
             print("I'm the process witch id: {}".format(self.id))
-
+```
 - To spawn the process, we need to initialize our Process object and invoke Process.start() method. Here Process.start() will create a new process and will invike the Process.run() method.
 - The code after p.start() will be executed immediately before the task completion of process p.
 - To wait for the task completion, you can use Process.join().
-
+```
     import multiprocessing
     import time
 
@@ -60,6 +60,7 @@
         p = Process(1)
         p.start()
         p.join()
+```
 -----------------------------------------------------------------------------------------------------------------------------
 ## POOL CLASS ##
 
