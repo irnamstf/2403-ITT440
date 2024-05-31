@@ -12,14 +12,14 @@
 ------------------------------------------------------------------------------------------------------------------------
 ## SYNCHRONOUS EXECUTION VS ASYNCHRONOUS EXECUTION ##
  ********************************************************************************
-*        SYNCHRONOUS EXECUTION          *       ASYNCHRONOUS EXECUTION           *
+|        SYNCHRONOUS EXECUTION          |       ASYNCHRONOUS EXECUTION           |
  ********************************************************************************
-* - A synchronus execution is one the   *  - Asynchronous, on the other hand,    *
-*   processes are completed in the      *    same doesn't involve locking.       *
-*   oder in which it was started.       *  - As a results, the order of results  *
-* - This is achieved by locking the     *    can get mixed up but usually gets   *
-*   main program until the respective   *    done quicker.                       *
-*   processes are finished.             *                                        *
+| - A synchronus execution is one the   |  - Asynchronous, on the other hand,    |
+|   processes are completed in the      |    same doesn't involve locking.       |
+|   oder in which it was started.       |  - As a results, the order of results  |
+| - This is achieved by locking the     |    can get mixed up but usually gets   |
+|   main program until the respective   |    done quicker.                       |
+|   processes are finished.             |                                        |
  ********************************************************************************  
  
 ------------------------------------------------------------------------------------------------------------------------
