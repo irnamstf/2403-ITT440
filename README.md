@@ -1,3 +1,4 @@
+![image](https://github.com/addff/2403-ITT440/assets/166005494/58605989-c63f-4f4f-b26f-e9b0c64ed131)
 # Phyton Installation
 ## What is Phyton?
 Python is a high-level, interpreted, object-oriented programming language known for its dynamic semantics. Its advanced built-in data structures, along with dynamic typing and binding, make it an excellent choice for rapid application development and as a scripting or glue language to integrate existing components. The language's clear and straightforward syntax enhances readability, thereby lowering the cost of maintaining code. Python's support for modules and packages promotes modularity and code reuse. Both the Python interpreter and its comprehensive standard library are freely available in source or binary form across all major platforms, and can be distributed without any cost.
@@ -100,3 +101,26 @@ One potential drawback of using Python in a work environment is that it might no
 Additionally, Python's dynamic nature and lack of strong typing can make maintaining and debugging code more challenging as projects become larger and more complex. This can result in increased development time and costs, as well as potential errors or security vulnerabilities.
 
 ## Installation Manual
+### Step 1:Download Phyton Executable Installer
+1. Open web browser and browse the official Phyton website
+2. Locate the desied Phyton version
+![image](https://github.com/addff/2403-ITT440/assets/166005494/92972612-fdb9-427f-a03a-2b02466afaf5)
+3. Click the link to download file. Choose between Womdows 32-bit or 64-bit installer.
+
+### Step 2: Run Executable Installer
+1. Run the downloaded Phyton Installer.
+2. The installation shows two checkboxes:
+![image](https://github.com/addff/2403-ITT440/assets/166005494/65e80f6a-867d-47a2-ae07-2cc05080fc5d)
+Tick both checkboxes
+3. Select __Install Now__ option for the recommended installation.
+![image](https://github.com/addff/2403-ITT440/assets/166005494/ba73b492-3ae7-439c-b2d6-473142e856e6)
+4.Select whether to disable the path limit. Choosing this option will allow Phyton to bypass the 260-character __MAX_PATH__ limit.
+![image](https://github.com/addff/2403-ITT440/assets/166005494/aa29a24a-2454-4cda-8fa9-3ccb96ac0933)
+
+### Step 3: Verify Phyton Was Installed on Windows
+1. Open command prompt and run the following command:
+__python --version__
+2. The output shows the installed Phyton version
+![image](https://github.com/addff/2403-ITT440/assets/166005494/16d060f7-5d10-43f9-8b86-5f47d996d96b)
+
+
