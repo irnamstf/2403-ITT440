@@ -21,3 +21,17 @@
 * **Ease of Learning**: Python's simplicity and readability make it an excellent choice for beginners who are new to programming. Its syntax is designed to be clear and intuitive, which reduces the learning curve and allows new developers to start writing code quickly.
 
 * **Open Source**: Python is open source, meaning its source code is freely available for anyone to use, modify, and distribute. This fosters collaboration and innovation within the community, as developers can contribute improvements and enhancements to the language itself.
+
+
+
+ ## common function in python
+
+  * **to print output**: to print output in python programmer need to use the built in **"print"** function and followed by **bracket** and **'**.
+
+  *  **to get an input**: to get any input python programmer need to use the built in **"input"** function and followed by **bracket**.
+
+  *  **to initialized variable type and change the type**: to initialized any variable into a specific type programmer must take the variable and use **=** and type any type that need to be specified
+
+  *  **to use if function**: The "if" function in programming is like making a decision.To use this function programmer must use **if**,**else**,**else if**
+
+  *  **to implement loop**: There's many type of loop in the python such as **while** loop and **for** loop.A for loop is used when the number of iterations is already known. It consists of three parts: initialization, condition, and iteration.A while loop is used when the number of iterations is unknown. It consists of a condition and a body.
