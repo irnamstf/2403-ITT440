@@ -1,13 +1,13 @@
 ` DANIEL ISKANDAR BIN AZMAN | 2022850768 | M3CS2554A | ITT440 `
-# HOW TO SEND AND RECEIVE UDP PACKET USING C
-## INTRODUCTION OF C
+# *HOW TO SEND AND RECEIVE UDP PACKET USING C*
+## *INTRODUCTION OF C*
 C is a general-purpose, procedural programming language that has been widely used for developing system and application software. It was originally developed by Dennis Ritchie between 1969 and 1973 at Bell Labs, and it has since become one of the most influential programming languages, forming the basis for many modern languages, such as C++, C#, and Objective-C.
-## IMPORTANCE OF C
+## *IMPORTANCE OF C*
 - Foundation of Modern Languages: C has influenced many modern programming languages, making its concepts and syntax familiar to many developers.
 - System Programming: C is extensively used for developing operating systems, embedded systems, and other low-level software where direct hardware manipulation is required.
 - Performance: C is known for its performance and efficiency, making it ideal for applications that require high-speed computations and resource management.
 - Educational Value: Learning C provides a solid foundation in programming and understanding how software interacts with hardware, which is essential for computer science education.
-## SEND UDP PACKET IN UDP CLIENT
+## *SEND UDP PACKET IN UDP CLIENT*
 -Socket Creation: socket(AF_INET, SOCK_DGRAM, 0) creates a UDP socket.
 
 -Server Address Setup: The server_addr structure is set with the server's IP address and port.
@@ -20,7 +20,7 @@ C is a general-purpose, procedural programming language that has been widely use
 
 -Close Socket: close(sockfd) closes the socket.
 
-## CODING
+## *CODING*
 ````C
 // udp_client.c
 #include <stdio.h>
@@ -75,8 +75,9 @@ int main() {
     close(sockfd);
     return 0;
 }
+
 ````
-## RECEIVE UDP PACKET IN UDP SERVER
+## *RECEIVE UDP PACKET IN UDP SERVER*
 -Socket Creation: socket(AF_INET, SOCK_DGRAM, 0) creates a UDP socket.
 
 -Server Address Setup: The server_addr structure is set with the server's port and IP address (INADDR_ANY to accept any incoming messages).
@@ -90,6 +91,7 @@ int main() {
 -Send Response: sendto sends a response to the client.
 
 -Close Socket: close(sockfd) closes the socket.
+## *CODING*
 ````C
 // udp_server.c
 #include <stdio.h>
