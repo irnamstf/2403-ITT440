@@ -35,3 +35,6 @@
   *  **to use if function**: The "if" function in programming is like making a decision.To use this function programmer must use **if**,**else**,**else if**
 
   *  **to implement loop**: There's many type of loop in the python such as **while** loop and **for** loop.A for loop is used when the number of iterations is already known. It consists of three parts: initialization, condition, and iteration.A while loop is used when the number of iterations is unknown. It consists of a condition and a body.
+
+ ## YOUTUBE LINK FOR MORE DETAILS
+- https://youtu.be/6sfQrOQUlA8
