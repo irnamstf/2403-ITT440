@@ -7,6 +7,9 @@ SIGKILL is a signal which is a method of communication between multiple process.
 ## Function of SIGKILL 
 SIGKILL give command to the process to terminate immediately. This command cannot be ignored or blocked and once the process was killed while it is running threads, those will be killed as well. If the process and its threads cannot be terminated by SIGKILL, this indicates an operating system malfunction
 
+## When SIGKILL Should Be Use
+Signal SIGKILL should not be use for programs that are complex and only be use on simple program as it can be corrupt during the termination process if it hasn’t completed its cleanup. SIGKILL should only be use on the following situation :
+
 ## How To Send Signal SIGKILL
 ```c
 #include <signal.h>
