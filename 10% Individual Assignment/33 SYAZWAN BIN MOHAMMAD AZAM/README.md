@@ -50,3 +50,6 @@ void sigkill()
   printf("CHILD: I have received a SIGKILL\n");
 }
 ```
+## Output
+![image](https://github.com/addff/2403-ITT440/assets/166005094/c15c7277-bb66-4686-aeb3-5d324e4836cd)
+
