@@ -9,6 +9,9 @@ SIGKILL give command to the process to terminate immediately. This command canno
 
 ## When SIGKILL Should Be Use
 Signal SIGKILL should not be use for programs that are complex and only be use on simple program as it can be corrupt during the termination process if it hasn’t completed its cleanup. SIGKILL should only be use on the following situation :
+* A bug or error occur in the process during its cleanup
+* To retain data for troubleshooting
+* Suspicious malware in the process
 
 ## How To Send Signal SIGKILL
 ```c
