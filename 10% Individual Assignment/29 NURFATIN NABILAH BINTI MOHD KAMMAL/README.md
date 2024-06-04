@@ -86,6 +86,6 @@
 - Athread is the right abstraction.
 - It allows the developer to focus an programming the interaction with a single client and then to lift this interaction to multiple client by simply forking many instances of the single-client interaction in separate threads.
 
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fintellipaat.com%2Fblog%2Fwhat-is-client-server-architecture%2F&psig=AOvVaw0pTlbb7LforNJR55WMNR9S&ust=1717560394267000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCJi9ycyJwYYDFQAAAAAdAAAAABAE
+file:///C:/Users/LENOVO/Downloads/image-99.webp
 
 -----------------------------------------------------------------------------------------------------------------------------
