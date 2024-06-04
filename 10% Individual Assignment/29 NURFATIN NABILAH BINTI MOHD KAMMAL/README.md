@@ -11,15 +11,10 @@
   ```
 ------------------------------------------------------------------------------------------------------------------------
 ## SYNCHRONOUS EXECUTION VS ASYNCHRONOUS EXECUTION ##
- 
 |        SYNCHRONOUS EXECUTION          |       ASYNCHRONOUS EXECUTION           |
 | ------------------------------------- | -------------------------------------- |
-| - A synchronus execution is one the   |  - Asynchronous, on the other hand,    |
-|   processes are completed in the      |    same doesn't involve locking.       |
-|   oder in which it was started.       |  - As a results, the order of results  |
-| - This is achieved by locking the     |    can get mixed up but usually gets   |
-|   main program until the respective   |    done quicker.                       |
-|   processes are finished.             |                                        | 
+| - A synchronus execution is one the processes are completed in the oder in which it was started. | - Asynchronous, on the other hand, same doesn't involve locking. | 
+| - This is achieved by locking the main program until the respective processes are finished. | - As a results, the order of results can get mixed up but usually gets done quicker. |
  
 ------------------------------------------------------------------------------------------------------------------------
 ## CREATE A PROCESS WHICH PRINTS THE ASSIGNED ID ##
