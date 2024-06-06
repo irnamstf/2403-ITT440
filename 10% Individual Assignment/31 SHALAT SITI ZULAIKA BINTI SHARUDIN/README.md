@@ -40,7 +40,7 @@
   | faster deployment speed | hard learning curve |
 
 
-## Lab 1 (Fork) on Docker Containers
+## Lab 1 : Fork() on Docker Containers
   
   1. Install Docker
      - Windows/Mac:  Download and install Docker Desktop from the official   Docker website. Follow the installation instructions and ensure Docker is running.
