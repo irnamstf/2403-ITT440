@@ -43,14 +43,14 @@
 ## Lab 1 (Fork) on Docker Containers
   
   1. Install Docker
-         - Windows/Mac:  Download and install Docker Desktop from the official   Docker website. Follow the installation instructions and ensure Docker is running.
-         - Linux: Follow the official installation guide for your distribution from the Docker documentation.
+    - Windows/Mac:  Download and install Docker Desktop from the official   Docker website. Follow the installation instructions and ensure Docker is running.
+   - Linux: Follow the official installation guide for your distribution from the Docker documentation.
   2. Set Up Your Environment
-         - Create a directory for your project. Inside this directory, you will have your source code and Dockerfile.
+    - Create a directory for your project. Inside this directory, you will have your source code and Dockerfile.
         ![Example Image 1](https://github.com/addff/2403-ITT440/blob/main/10%25%20Individual%20Assignment/31%20SHALAT%20SITI%20ZULAIKA%20BINTI%20SHARUDIN/1st.png?raw=true)
 
   3.  Write the C Program
-- Create a file named fork_example.c with the following content:
+    - Create a file named fork_example.c with the following content:
       ![fork.c](https://github.com/addff/2403-ITT440/blob/main/10%25%20Individual%20Assignment/31%20SHALAT%20SITI%20ZULAIKA%20BINTI%20SHARUDIN/2ns.png?raw=true)
 
  4. Create a Dockerfile
