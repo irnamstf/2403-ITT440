@@ -47,17 +47,19 @@
           Linux: Follow the official installation guide for your distribution from the Docker documentation.
   2. Set Up Your Environment
         Create a directory for your project. Inside this directory, you will have your source code and Dockerfile.
-        ![Example Image 1](10% Individual Assignment/31 SHALAT SITI ZULAIKA BINTI SHARUDIN/1st.png)
+        ![Example Image 1](https://github.com/addff/2403-ITT440/blob/main/10%25%20Individual%20Assignment/31%20SHALAT%20SITI%20ZULAIKA%20BINTI%20SHARUDIN/1st.png?raw=true)
 
   3.  Write the C Program
 Create a file named fork_example.c with the following content:
-      ![Example Image 2](10% Individual Assignment/31 SHALAT SITI ZULAIKA BINTI SHARUDIN/2ns.png)
+      ![fork.c](https://github.com/addff/2403-ITT440/blob/main/10%25%20Individual%20Assignment/31%20SHALAT%20SITI%20ZULAIKA%20BINTI%20SHARUDIN/2ns.png?raw=true)
 
  4. Create a Dockerfile
-      ![Example Image 3](10% Individual Assignment/31 SHALAT SITI ZULAIKA BINTI SHARUDIN/dockr.png)
+      ![Dockerfile](https://github.com/addff/2403-ITT440/blob/main/10%25%20Individual%20Assignment/31%20SHALAT%20SITI%20ZULAIKA%20BINTI%20SHARUDIN/dockr.png?raw=true)
+    
  5. Build the Docker Image. Open a terminal, navigate to your project directory, and build the Docker image:
-      ![Exampe Image 3](10% Individual Assignment/31 SHALAT SITI ZULAIKA BINTI SHARUDIN/build docker.png)
+      ![Docker Image](https://github.com/addff/2403-ITT440/blob/main/10%25%20Individual%20Assignment/31%20SHALAT%20SITI%20ZULAIKA%20BINTI%20SHARUDIN/build%20docker.png?raw=true)
+    
  6. Run the Docker Container. The output will be shown.
-     ![Example Image 4](10% Individual Assignment/31 SHALAT SITI ZULAIKA BINTI SHARUDIN/output.png)
+     ![Output](https://github.com/addff/2403-ITT440/blob/main/10%25%20Individual%20Assignment/31%20SHALAT%20SITI%20ZULAIKA%20BINTI%20SHARUDIN/output.png?raw=true)
 
    
