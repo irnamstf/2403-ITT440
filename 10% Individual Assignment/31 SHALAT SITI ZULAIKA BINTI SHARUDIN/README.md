@@ -42,5 +42,11 @@
 
 ## Lab 1 (Fork) on Docker Containers
   
+  1. Install Docker
+          Windows/Mac:  Download and install Docker Desktop from the official   Docker website. Follow the installation instructions and ensure Docker is running.
+          Linux: Follow the official installation guide for your distribution from the Docker documentation.
+  2. Set Up Your Environment
+        Create a directory for your project. Inside this directory, you will have your source code and Dockerfile.
+        ! 
 
    
