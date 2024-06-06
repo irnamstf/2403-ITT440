@@ -47,6 +47,17 @@
           Linux: Follow the official installation guide for your distribution from the Docker documentation.
   2. Set Up Your Environment
         Create a directory for your project. Inside this directory, you will have your source code and Dockerfile.
-        ! 
+        ! 10% Individual Assignment/31 SHALAT SITI ZULAIKA BINTI SHARUDIN/1st.png
+
+  3.  Write the C Program
+Create a file named fork_example.c with the following content:
+      ! 10% Individual Assignment/31 SHALAT SITI ZULAIKA BINTI SHARUDIN/2ns.png
+
+ 4. Create a Dockerfile
+      ! 10% Individual Assignment/31 SHALAT SITI ZULAIKA BINTI SHARUDIN/dockr.png
+ 5. Build the Docker Image. Open a terminal, navigate to your project directory, and build the Docker image:
+      ! 10% Individual Assignment/31 SHALAT SITI ZULAIKA BINTI SHARUDIN/build docker.png
+ 6. Run the Docker Container. The output will be shown.
+     ! 10% Individual Assignment/31 SHALAT SITI ZULAIKA BINTI SHARUDIN/output.png
 
    
