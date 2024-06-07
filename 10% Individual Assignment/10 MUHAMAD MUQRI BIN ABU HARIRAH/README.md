@@ -68,7 +68,24 @@ Python is programming language that was created by Guido van Rossum in late 1980
 * python3
 
 ## Overview
+```python
+def main():
+    # Input the first number
+    num1 = float(input("Enter the first number: "))
 
+    # Input the second number
+    num2 = float(input("Enter the second number: "))
 
+    # Calculate the sum
+    sum = num1 + num2
 
-## 
+    # Display the sum
+    print("The sum of", num1, "and", num2, "is", sum)
+
+if __name__ == "__main__":
+    main()
+
+```
+## Output
+![Assignment Sir Shahadan 2](https://github.com/addff/2403-ITT440/assets/166004612/e179e9c5-c69a-4ba3-96e4-e5789bef7e19)
+
