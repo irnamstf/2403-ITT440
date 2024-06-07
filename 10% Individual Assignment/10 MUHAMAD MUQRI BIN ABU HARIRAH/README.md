@@ -53,6 +53,8 @@ return 0;
 
 }
 ```
+## Output
+![Assignment Sir Shahadan](https://github.com/addff/2403-ITT440/assets/166004612/d6a06ccc-923d-4ead-bf27-28f7cc1b87df)
 
 ## Origin of Python
 Python is programming language that was created by Guido van Rossum in late 1980s as a successor to the ABC programming language. It was created at Centrum Wiskunde & Informatica (CWI) which is situated in the Netherlands. Python is an Open-source, high-level and general-purpose programming language. 
