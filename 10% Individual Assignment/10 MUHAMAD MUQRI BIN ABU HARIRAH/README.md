@@ -90,3 +90,5 @@ if __name__ == "__main__":
 ## Output
 ![Assignment Sir Shahadan 2](https://github.com/addff/2403-ITT440/assets/166004612/e179e9c5-c69a-4ba3-96e4-e5789bef7e19)
 
+## Video
+https://youtu.be/n1jyoMzo51I
