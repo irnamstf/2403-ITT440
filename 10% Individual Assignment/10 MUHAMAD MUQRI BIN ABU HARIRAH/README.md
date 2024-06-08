@@ -54,6 +54,7 @@ return 0;
 }
 ```
 ## Output
+![Assignment Sir Shahadan](https://github.com/addff/2403-ITT440/assets/166004612/fd891159-046a-4843-a2bf-282986f65e24)
 
 
 ## Origin of Python
