@@ -14,7 +14,7 @@ Signal SIGKILL should not be use for programs that are complex and only be use o
 * Suspicious malware in the process
 
 ## How To Send Signal SIGKILL
-The code must include '<signal.h>' library for handling signal. 'signal(SIGKILL, sigkill);' need to be declared in order to send signal SIGKILL. To send a signal SIGKILL to a process is 'kill(pid, SIGKILL);'
+The code must include `<signal.h>` library for handling signal. `signal(SIGKILL, sigkill);` need to be declared in order to send signal SIGKILL. To send a signal SIGKILL to a process is `kill(pid, SIGKILL);`.
 
 ```c
 #include <signal.h>
