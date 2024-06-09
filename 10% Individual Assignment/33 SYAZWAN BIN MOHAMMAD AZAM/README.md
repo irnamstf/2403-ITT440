@@ -14,6 +14,7 @@ Signal SIGKILL should not be use for programs that are complex and only be use o
 * Suspicious malware in the process
 
 ## How To Send Signal SIGKILL
+To send a signal SIGKILL to a process is '''kill(pid, SIGKILL);'''
 ```c
 #include <signal.h>
 #include <stdio.h>
