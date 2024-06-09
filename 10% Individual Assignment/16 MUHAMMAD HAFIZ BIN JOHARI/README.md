@@ -33,4 +33,3 @@ A process can terminate in two ways:
 - Self-termination: When a process finishes executing its last statement, it naturally terminates. The operating system uses the exit() system call to delete its context.
 - Parent-initiated termination: A parent process may terminate its child process for reasons such as, `1` The task assigned to the child is no longer needed. `2` The child has exceeded its resource limits. `3` The parent process itself is exiting, leading to cascaded termination of all its children
 
-## Video Guide
