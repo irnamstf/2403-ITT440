@@ -24,7 +24,7 @@ Signal SIGKILL should not be use for programs that are complex and only be use o
 void sigkill();
 int main()
 {
-  int pid;                                        
+  int pid;                                        //get child process
   pid = fork();
   
   if (pid<0)
@@ -32,12 +32,12 @@ int main()
     perror("fork");
     exit(1);
   }
-  if (pid=0)                                      
+  if (pid=0)                                      //child
   {  
     signal(SIGKILL, sigkill);
     for (int x =1;; x++);
   }
-  else                                            
+  else                                            //parent
   {
     printf("\nPARENT: sending SIGKILL\n\n");
     kill(pid, SIGKILL);
@@ -49,6 +49,7 @@ void sigkill()
   signal(SIGKILL, sigkill);
   printf("CHILD: I have received a SIGKILL\n");
 }
+
 ```
 ## Output
 ![image](https://github.com/addff/2403-ITT440/assets/166005094/c15c7277-bb66-4686-aeb3-5d324e4836cd)
