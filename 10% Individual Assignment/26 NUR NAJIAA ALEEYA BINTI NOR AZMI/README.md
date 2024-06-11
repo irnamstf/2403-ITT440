@@ -1,9 +1,12 @@
 # How to Install GCC Compiler using pkg Package Manager on FreeBSD
 
 ## Introduction
-GCC or "GNU Compiler Collection" is a free software compiler system capable of compiling several programming languages, 
-including C, C++, Objective-C, and Fortran. GCC is widely used in creating software for Unix-like systems and it has been adapted for various platforms, 
-demonstrating its adaptability and flexibility in the realm of open-source programming.
+GCC or "GNU Compiler Collection" isa free software compiler system capable of compiling several programming languages, including C, C++, Objective-C, and Fortran. GCC is widely used in creating software for Unix-like systems, such as Linux, Windows, various BSDs. It has been adapted for various platforms, demonstrating its adaptability and flexibility in the realm of open-source programming.
+
+## How Does It Work?
+GCC is a toolchain that compiles code, links it with any library dependencies, converts that code to assembly, and then prepares executable files. It follows the standard UNIX design philosophy of using simple tools that perform individual tasks well. The GCC development suite utilizes these discrete tools to compile software.
+
+When you run GCC on a source code file, it first uses a preprocessor to include header files and discard comments. Next, it tokenizes the code, expands macros, detects any compile-time issues, then prepares it for compilation. It is then sent to the compiler, which creates syntax trees of the program’s objects and control flow and uses those to generate assembly code. The assembler then converts this code into the binary executable format of the system. Finally, the linker includes references to any external libraries as needed. The finished product is then executable on the target system.
 
 ## Prerequisites
 Before we start the installation, make sure you have everything you need:
