@@ -71,5 +71,5 @@ OUTPUT >
 ![individu 10% sum output](https://github.com/addff/2403-ITT440/assets/167417574/f2e44624-fce0-4450-aafd-a1794c34340d)
 
 
-
+For better understanding, there will be a video on how to compile a simple C program in Mobaxterm. [Click Here](https://youtu.be/yF1-x6in9g4).
 
