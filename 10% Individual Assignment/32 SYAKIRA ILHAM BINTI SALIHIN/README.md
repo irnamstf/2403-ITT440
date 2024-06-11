@@ -5,6 +5,7 @@ The process of translating the C language's source code into machine code is cal
 We first need a compiler and a code editor to compile and run a C Program. The below example is of MobaXterm Apps with GCC compiler.
 
 ## FIRST STEP : DOWNLOAD VMWARE AND SETUP 
+Can refer here to setup your VMware [Setup VMware](https://youtu.be/-IrjVBONANQ).
 
 
 ## SECOND STEP : DOWNLOAD MOBAXTERM
@@ -33,16 +34,42 @@ These command will compile and display your output. Output will be shown in Imag
 <img width="413" alt="individu 10% print output" src="https://github.com/addff/2403-ITT440/assets/167417574/102ab19b-6928-4295-9f7c-11541c68ac02">
                                           
   **Image 3**
+  
 
 ## EXAMPLE 2 : PRINT YOUR NAME 
 
 Follow step from example 1.
 
 ![Screenshot 2024-05-22 012913](https://github.com/addff/2403-ITT440/assets/167417574/b5036648-fd70-47c1-8fa3-bc9c597894d9)
-**Image 4**
+
+OUTPUT >
 
 <img width="468" alt="individu 10% printName output" src="https://github.com/addff/2403-ITT440/assets/167417574/23df5d05-117a-4f82-a8fe-3214354749d6">
 
-**Image 5**
+
+
+## EXAMPLE 3 : PRINT INTEGER 
+
+Follow step from example 1.
+
+![individu 10% integer](https://github.com/addff/2403-ITT440/assets/167417574/e99d9135-6b7c-4165-85b3-cd0dbe095ccf)
+
+OUTPUT >
+
+<img width="486" alt="individu 10% integer output" src="https://github.com/addff/2403-ITT440/assets/167417574/3dea6ba1-cd2f-4663-b5e9-09fd7f5d0664">
+
+
+
+## EXAMPLE 4 : PRINT SUM OF NUMBERS 
+
+Follow step from example 1.
+
+<img width="513" alt="individu 10% sum" src="https://github.com/addff/2403-ITT440/assets/167417574/bfcc38ca-ecd9-4e39-921c-8bbf146cded3">
+
+OUTPUT >
+
+![individu 10% sum output](https://github.com/addff/2403-ITT440/assets/167417574/f2e44624-fce0-4450-aafd-a1794c34340d)
+
+
 
 
