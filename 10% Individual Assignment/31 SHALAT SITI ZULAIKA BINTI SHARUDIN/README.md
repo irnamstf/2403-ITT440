@@ -79,3 +79,9 @@
    
 ## Video Presentation
  https://youtu.be/W0xBgpn8gt0?si=cKsZMK04hpK6RU9M
+
+ ## Reference 
+  1. DuploCloud. (2024, January 30). Docker Advantages and Disadvantages: What You Need to Know Before You Switch. DuploCloud. https://duplocloud.com/blog/docker-advantages-and-disadvantages/
+  2.  Team, C. A. (2023, August 11). Docker vs. Virtual Machines: Differences You Should Know. Cloud Academy. https://cloudacademy.com/blog/docker-vs-virtual-machines-differences-you-should-know/
+  3. What is a Container? | Docker. (n.d.). Docker. https://www.docker.com/resources/what-container/
+ 
