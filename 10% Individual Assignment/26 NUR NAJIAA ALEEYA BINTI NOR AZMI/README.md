@@ -93,4 +93,4 @@ The system has confirmed GCC version 13.2.0 is successfully installed!
 ## Conclusion
 Installation GCC on FreeBSD invloves navigating to the appropriate directory and compiling the software. By following the outlined steps, you ensure a successful installation, equipping your system with a powerful set of compilers for various programming languages. With GCC installed, you are now ready to compile and build software projects efficiently on your FreeBSD operating system, leveraging the full capabilities of GNU Compiler Collection.
 
-###Video: https://youtu.be/odZNn2lxV-o 
+### Video: https://youtu.be/odZNn2lxV-o 
