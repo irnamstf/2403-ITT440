@@ -33,7 +33,7 @@ parameters and returns an integer value.
       - Return to the newly created child process.
   
 - The fork( ) system call is used for creating a new process by duplicating the existing process, resulting in two processes running at the same time.
-- If we call fork( ) twice, it will spawn 22 = 4 processes. The formula is 2n, whereas n is equal to number of fork( ) command. Which mean if the amount of fork in the command (n) is 3, resulting the output into 8
+- If we call fork( ) twice, it will spawn 2(2) = 4 processes. The formula is 2n, whereas n is equal to number of fork( ) command. Which mean if the amount of fork in the command (n) is 3, resulting the output into 8
 
 # HOW TO COMPILE FORK( ) IN C
 **STEP 1:** Use the command `` pkg install gcc `` to install the C language compiler. Then, use the command `` pkg install tree `` to install the tree.
@@ -158,3 +158,5 @@ int main()
 **OUTPUT -->**
 
 ![6](https://github.com/addff/2403-ITT440/assets/166004641/f4a2a342-7a5a-4e70-a0dd-9b9816ca6f51)
+
+### Video: https://www.youtube.com/watch?v=1-Jau7I6Gdk
