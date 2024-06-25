@@ -134,7 +134,10 @@ The provided code demonstrates a stream socket in the Internet Domain, widely ut
 ### Overhead
   Unlike stream sockets, datagram sockets have less overhead because they don't require establishing and breaking connections, and packets don't need acknowledgement. That's why they're commonly used for short services like providing the time of day.
 
-#### References
+## Youtube Vids.
+visit [Client-Server Model](https://www.youtube.com/watch?v=giXuzTtRZyw) for futher explaination.
+
+## References
   1. GeeksforGeeks. (2022, November 18). TCP Server-Client implementation in C. GeeksforGeeks. https://www.geeksforgeeks.org/tcp-server-client-implementation-in-c/
   2. Sankar, H. H. (2022, November 12). What is socket programming in C? - Scaler Topics. Scaler Topics. https://www.scaler.com/topics/socket-programming-in-c/
   3. GeeksforGeeks. (2024, January 9). Socket Programming in C. GeeksforGeeks. https://www.geeksforgeeks.org/socket-programming-cc/
