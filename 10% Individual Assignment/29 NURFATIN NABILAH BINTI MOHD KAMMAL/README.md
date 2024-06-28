@@ -66,7 +66,7 @@
     import multiprocessing
     import time
 
-    def square(x);
+    def square(x):
         return x * x
 
     if __name__ == '__main__':
@@ -89,21 +89,51 @@
 <img src=https://intellipaat.com/blog/wp-content/uploads/2021/09/image-99.png>
 -----------------------------------------------------------------------------------------------------------------------------
 
-## CREATE PYTHON PARALLEL PROGRAMMING ##
+## CREATE PYTHON PARALLEL PROGRAMMING IN WINDOWS 11 ##
 
 
-**STEP 1:** Open command prompt, create file with this command "mkdir fatin" and entered in the file with this command "cd fatin". Next, type this command "python" to install python in Microsoft Store.
+**STEP 1:** Open **command prompt**, create file with this command **"mkdir fatin"** and entered in the file with this command **"cd fatin"**. Next, type this command **"python"** to install python in **Microsoft Store**.
+
 ![image](https://github.com/addff/2403-ITT440/assets/167417605/e61c880d-fcef-4a91-b94a-a200bb84ad7f)
 
 
-**STEP 2:** 
+
+**STEP 2:** In **command prompt**, create file with this command **"echo showcpu.py"** and to enter the coding you must type this command for pop up notepad **"notepad showcpu.py"**. After that, type this command **"python showcpu.py"** for show the output in command prompt.
+
 ![image](https://github.com/addff/2403-ITT440/assets/167417605/cda61784-40c0-4594-bef5-dcb9c1dfa4a8)
 ![image](https://github.com/addff/2403-ITT440/assets/167417605/6f186dcc-5753-4e5d-8bfd-90e0f6fae764)
 
 
-**STEP 3:**
+
+**STEP 3:** In **command prompt**, create file with this command **"echo showcid.py"** and to enter the coding you must type this command for pop up notepad **"notepad showid.py"**. After that, type this command **"python showid.py"** for show the output in command prompt.
+
 ![image](https://github.com/addff/2403-ITT440/assets/167417605/0f40b40f-b7ba-4f34-98b9-f6ebfb0b20c7)
-![image](https://github.com/addff/2403-ITT440/assets/167417605/367bf092-e759-4ae9-a137-c49261ee9f46)
+![image](https://github.com/addff/2403-ITT440/assets/167417605/70f0c36a-863e-47a9-8268-15afc6b91585)
 
 
-**STEP 4:**
+
+**STEP 4:** In **command prompt**, create file with this command **"echo process.py"** and to enter the coding you must type this command for pop up notepad **"notepad process.py"**. After that, type this command **"python process.py"** for show the output in command prompt.
+
+![image](https://github.com/addff/2403-ITT440/assets/167417605/851979c4-aebc-4310-93d0-5e7490bf9331)
+![image](https://github.com/addff/2403-ITT440/assets/167417605/e52fc8f1-6e5d-4f9e-bd50-8cbd1a6222dc)
+
+
+Next, In **notepad** i try to change the command. After that, type this command **"python process.py"** for show the output in command prompt.
+
+![image](https://github.com/addff/2403-ITT440/assets/167417605/c2d94de4-c620-4456-b917-c206bd602bb8)
+
+
+
+**STEP 5:** In **command prompt**, create file with this command **"echo pool.py"** and to enter the coding you must type this command for pop up notepad **"notepad pool.py"**. After that, type this command **"python pool.py"** for show the output in command prompt.
+
+![image](https://github.com/addff/2403-ITT440/assets/167417605/67b35d8f-1fd3-438a-994b-334a10d3c28a)
+![image](https://github.com/addff/2403-ITT440/assets/167417605/3108b0c6-07e5-498e-a389-00d1e5543a1a)
+
+
+
+**STEP 6:** The way to pop up input & output from python pool.py according to the current time.
+
+![image](https://github.com/addff/2403-ITT440/assets/167417605/e9e7dfbe-68da-4dc4-ad2a-f2f643127f75)
+
+
+
