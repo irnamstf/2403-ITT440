@@ -88,3 +88,7 @@
 
 <img src=https://intellipaat.com/blog/wp-content/uploads/2021/09/image-99.png>
 -----------------------------------------------------------------------------------------------------------------------------
+## STEP BY STEP  PYTHON PARALLEL PROGRAMMING ##
+
+# STEP 1: 
+<img ![image](https://github.com/addff/2403-ITT440/assets/167417605/e61c880d-fcef-4a91-b94a-a200bb84ad7f)>
