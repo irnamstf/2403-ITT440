@@ -97,3 +97,13 @@
 
 
 **STEP 2:** 
+![image](https://github.com/addff/2403-ITT440/assets/167417605/cda61784-40c0-4594-bef5-dcb9c1dfa4a8)
+![image](https://github.com/addff/2403-ITT440/assets/167417605/6f186dcc-5753-4e5d-8bfd-90e0f6fae764)
+
+
+**STEP 3:**
+![image](https://github.com/addff/2403-ITT440/assets/167417605/0f40b40f-b7ba-4f34-98b9-f6ebfb0b20c7)
+![image](https://github.com/addff/2403-ITT440/assets/167417605/367bf092-e759-4ae9-a137-c49261ee9f46)
+
+
+**STEP 4:**
