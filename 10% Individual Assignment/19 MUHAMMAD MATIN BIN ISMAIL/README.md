@@ -64,3 +64,71 @@ Shell scripting is a powerful tool in the Unix and Linux world, offering several
 | Development Aid: Help in automating parts of the development process, such as testing and deployment. | Security Risks: Improperly written scripts can introduce security vulnerabilities, especially if run with superuser privileges. |                                                                           |
 
 In summary, shell scripting is an excellent choice for automating simple to moderately complex tasks on Unix-like systems. However, for performance-critical or highly complex applications, other programming languages might be more appropriate.
+
+## How to Write a Complex Shell Script
+
+Here’s a breakdown of how to write a complex shell script:
+
+1. **Shebang**: The script starts with `#!/bin/bash`, which is the shebang line. This tells the system to execute the script with the Bash shell.
+2. **Comments**: Lines starting with `#` are comments and are not executed. They are used to describe what the script or a part of the script does.
+3. **Variable Assignment**: `URL="http://your-web-server.com"` sets the variable `URL` to the address of your web server.
+4. **Command Substitution**: `HTTP_STATUS=$(curl -o /dev/null -s -w "%{http_code}\n" $URL)` uses `curl` to make an HTTP request to the server and captures the HTTP status code.
+    - `-o /dev/null` redirects the output of the request to `/dev/null` (which discards it).
+    - `-s` makes `curl` run in silent mode.
+    - `-w "%{http_code}\n"` tells `curl` to output the HTTP status code followed by a newline character.
+5. **Case Statement**: The `case` statement checks the first digit of the `HTTP_STATUS` variable to determine the class of the response.
+    - `"2")` matches any 2xx success status codes.
+    - `"3")` matches any 3xx redirection status codes.
+    - `"4")` matches any 4xx client error status codes.
+    - `"5")` matches any 5xx server error status codes.
+    - `*` is the default case that matches anything else.
+6. **Conditionals**: Inside the case for “4” and “5”, there are additional `if` statements to check for specific status codes like 404, 500, and 503.
+7. **Echo Commands**: The `echo` commands print out the corresponding message for each status code.
+
+### Example Script
+
+```bash
+#!/bin/bash
+# This script checks the HTTP status code of a web server.
+
+URL="http://your-web-server.com"
+HTTP_STATUS=$(curl -o /dev/null -s -w "%{http_code}\n" $URL)
+
+case "${HTTP_STATUS:0:1}" in
+  2)
+    echo "Success: The request was successful (status code: $HTTP_STATUS)."
+    ;;
+  3)
+    echo "Redirection: The request was redirected (status code: $HTTP_STATUS)."
+    ;;
+  4)
+    if [ "$HTTP_STATUS" -eq 404 ]; then
+      echo "Client Error: Not Found (status code: 404)."
+    else
+      echo "Client Error: The request contains bad syntax or cannot be fulfilled (status code: $HTTP_STATUS)."
+    fi
+    ;;
+  5)
+    if [ "$HTTP_STATUS" -eq 500 ]; then
+      echo "Server Error: Internal Server Error (status code: 500)."
+    elif [ "$HTTP_STATUS" -eq 503 ]; then
+      echo "Server Error: Service Unavailable (status code: 503)."
+    else
+      echo "Server Error: The server failed to fulfill an apparently valid request (status code: $HTTP_STATUS)."
+    fi
+    ;;
+  *)
+    echo "Unexpected status code: $HTTP_STATUS"
+    ;;
+esac
+
+```
+
+### Steps to Write and Run the Script
+
+1. **Open a text editor** and input the code.
+2. **Save the file** with a `.sh` extension, for example, `check_status.sh`.
+3. **Make the script executable** with the command `chmod +x check_status.sh`.
+4. **Run the script** using `./check_status.sh`.
+
+Remember to replace `http://your-web-server.com` with the actual URL of the web server you want to check. This script is a great example of how shell scripting can be used to automate monitoring tasks and provide quick insights into the status of web services.
