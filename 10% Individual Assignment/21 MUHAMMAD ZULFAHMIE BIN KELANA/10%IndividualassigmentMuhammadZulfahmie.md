@@ -158,3 +158,9 @@ The key points are:
 - Send and receive messages between the clients and server
 
 By using multi-threading, the server can handle multiple clients concurrently, allowing for real-time communication between the clients and server. The provided code demonstrates the basic structure, and you can build upon it to create more complex chat or gaming applications.
+
+## Video
+
+This is one example on How to connect multiple clients to a  server using python 3 sockets 
+
+https://youtu.be/3QiPPX-KeSc?si=Nvowg427Hcm3IpbF
