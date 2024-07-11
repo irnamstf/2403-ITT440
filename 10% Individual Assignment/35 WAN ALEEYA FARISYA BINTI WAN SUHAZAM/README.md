@@ -1,3 +1,7 @@
+Name: Wan Aleeya Farisya binti Wan Suhazam  
+Student ID: 2022612854  
+Lecturer's Name: Shahadan bin Saad  
+
 # **How to Write a Simple Shell Script**
 ## What is a Shell Script?
 Shell scripting is the process of programming an operating system to perform particular actions based on a text file
@@ -42,4 +46,23 @@ works best for the intended application.
 * Scripting languages may be more prone to costly errors compared to other programming languages.
 * Database tasks that require a high level of database access are not suitable for shell scripting.
 
+## **Shell Scripting using Bourne Shell `sh`**
+### Displaying Any Phrase
+```
+$ echo "Hello World!"
+```
+### Sample Output:
+![image](https://github.com/addff/2403-ITT440/assets/166004185/74d1e4e9-bf6e-492e-9047-a9d54242cc75)
 
+### Inserting a Value in a Variable and Displaying It
+```
+$ read x
+// User inputs the value to insert into the variable
+$ echo "$x"
+// The value that user input will be displayed here
+```
+### Sample Output:
+![image](https://github.com/addff/2403-ITT440/assets/166004185/776c3513-ef19-462a-9e22-99ea5065e04c)
+
+## Video Demonstration
+Click [here](https://youtu.be/g0D49SmpkkU) to watch the video demonstration.

@@ -89,3 +89,6 @@ this documentation be helpful to all.
  <br /><br /><br /><br />
  
  ## **Video Guide**
+ <br />
+
+ * [IDE Introduction&Installation](https://drive.google.com/file/d/1_OvsHSpQsSFl4POpQ9EztoVYlvFSQTNk/view?usp=sharing)<br />

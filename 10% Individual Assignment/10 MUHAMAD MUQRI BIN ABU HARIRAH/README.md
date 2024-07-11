@@ -40,7 +40,7 @@ printf("Enter the first number: ");
 scanf("%d", &num1);
 
 // Input the second number
-printf ("Enter the first number: ");
+printf ("Enter the second number: ");
 scanf ("%d", &num2);
 
 // Calculate the sum
@@ -53,6 +53,9 @@ return 0;
 
 }
 ```
+## Output
+![Assignment Sir Shahadan](https://github.com/addff/2403-ITT440/assets/166004612/fd891159-046a-4843-a2bf-282986f65e24)
+
 
 ## Origin of Python
 Python is programming language that was created by Guido van Rossum in late 1980s as a successor to the ABC programming language. It was created at Centrum Wiskunde & Informatica (CWI) which is situated in the Netherlands. Python is an Open-source, high-level and general-purpose programming language. 
@@ -66,7 +69,26 @@ Python is programming language that was created by Guido van Rossum in late 1980
 * python3
 
 ## Overview
+```python
+def main():
+    # Input the first number
+    num1 = float(input("Enter the first number: "))
 
+    # Input the second number
+    num2 = float(input("Enter the second number: "))
 
+    # Calculate the sum
+    sum = num1 + num2
 
-## 
+    # Display the sum
+    print("The sum of", num1, "and", num2, "is", sum)
+
+if __name__ == "__main__":
+    main()
+
+```
+## Output
+![Assignment Sir Shahadan 2](https://github.com/addff/2403-ITT440/assets/166004612/e179e9c5-c69a-4ba3-96e4-e5789bef7e19)
+
+## Video
+https://youtu.be/n1jyoMzo51I
