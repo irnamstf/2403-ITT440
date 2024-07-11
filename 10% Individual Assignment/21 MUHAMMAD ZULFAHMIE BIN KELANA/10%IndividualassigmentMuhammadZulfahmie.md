@@ -1,4 +1,10 @@
+Name: Muhammad Zulfahmie Bin Kelana
 
+No. Matric: 2022615532
+
+Group: M3CDCS2554A
+
+## How to connect multiple clients to a  server using python 3 sockets 
 
 ## What is a Client?
 
